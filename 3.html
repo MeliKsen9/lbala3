@@ -1,0 +1,5115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        html, body {
+          margin: 0;
+          padding: 0;
+        }
+        .rectangle {
+          width: 1200px;
+          height: 78px;
+          left: 0px;
+          top: 0px;
+          position: absolute;
+          background: white;
+        }
+        
+        .rectangle_01 {
+          width: 19px;
+          height: 17px;
+          left: 1303px;
+          top: 30px;
+          position: absolute;
+          background: white;
+          border-radius: 9px;
+        }
+        
+        .rectangle_02 {
+          width: 92px;
+          height: 50px;
+          left: 1083px;
+          top: 14px;
+          position: absolute;
+          border-radius: 120px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_03 {
+          width: 1200px;
+          height: 650px;
+          left: 0px;
+          top: 78px;
+          position: absolute;
+        }
+        
+        .rectangle_04 {
+          width: 200px;
+          height: 46px;
+          left: 24px;
+          top: 472px;
+          position: absolute;
+          background: black;
+          border-radius: 100px;
+        }
+        
+        .image {
+          width: 1200px;
+          height: 650px;
+          left: 0px;
+          top: 78px;
+          position: absolute;
+        }
+        
+        .rectangle_05 {
+          width: 1200px;
+          height: 1px;
+          left: 0px;
+          top: 1417px;
+          position: absolute;
+          background: black;
+        }
+        
+        .rectangle_06 {
+          width: 1200px;
+          height: 689px;
+          left: 0px;
+          top: 728px;
+          position: absolute;
+          background: #F8F7F3;
+        }
+        
+        .rectangle_07 {
+          width: 200px;
+          height: 46px;
+          left: 121px;
+          top: 1164px;
+          position: absolute;
+          background: black;
+          border-radius: 100px;
+        }
+        
+        .image_01 {
+          width: 568px;
+          height: 540px;
+          left: -528px;
+          top: 792px;
+          position: absolute;
+        }
+        
+        .image_02 {
+          width: 568px;
+          height: 540px;
+          left: 40px;
+          top: 792px;
+          position: absolute;
+        }
+        
+        .image_03 {
+          width: 568px;
+          height: 540px;
+          left: 608px;
+          top: 792px;
+          position: absolute;
+        }
+        
+        .image_04 {
+          width: 568px;
+          height: 540px;
+          left: 1176px;
+          top: 792px;
+          position: absolute;
+        }
+        
+        .image_05 {
+          width: 568px;
+          height: 540px;
+          left: 1744px;
+          top: 792px;
+          position: absolute;
+        }
+        
+        .rectangle_08 {
+          width: 182px;
+          height: 4px;
+          left: 608px;
+          top: 1348px;
+          position: absolute;
+          background: #E6E6E6;
+          border-radius: 2px;
+        }
+        
+        .rectangle_09 {
+          width: 182px;
+          height: 4px;
+          left: 801px;
+          top: 1348px;
+          position: absolute;
+          background: #E6E6E6;
+          border-radius: 2px;
+        }
+        
+        .rectangle_10 {
+          width: 182px;
+          height: 4px;
+          left: 994px;
+          top: 1348px;
+          position: absolute;
+          background: #E6E6E6;
+          border-radius: 2px;
+        }
+        
+        .image_06 {
+          width: 244px;
+          height: 295px;
+          left: 1055px;
+          top: 565px;
+          position: absolute;
+        }
+        
+        .image_07 {
+          width: 261px;
+          height: 253px;
+          left: -72px;
+          top: 728px;
+          position: absolute;
+        }
+        
+        .image_08 {
+          width: 249px;
+          height: 245px;
+          left: 312px;
+          top: 1238px;
+          position: absolute;
+        }
+        
+        .rectangle_11 {
+          width: 1200px;
+          height: 1px;
+          left: 0px;
+          top: 1578px;
+          position: absolute;
+          background: black;
+        }
+        
+        .rectangle_12 {
+          width: 1200px;
+          height: 161px;
+          left: 0px;
+          top: 1417px;
+          position: absolute;
+        }
+        
+        .rectangle_13 {
+          width: 1200px;
+          height: 1px;
+          left: 0px;
+          top: 2458px;
+          position: absolute;
+          background: black;
+        }
+        
+        .rectangle_14 {
+          width: 1200px;
+          height: 880px;
+          left: 0px;
+          top: 1578px;
+          position: absolute;
+        }
+        
+        .rectangle_15 {
+          width: 73px;
+          height: 40px;
+          left: 201px;
+          top: 1731px;
+          position: absolute;
+          background: black;
+          border-radius: 32px;
+        }
+        
+        .rectangle_16 {
+          width: 88px;
+          height: 40px;
+          left: 298px;
+          top: 1731px;
+          position: absolute;
+          background: #F2F2F2;
+          border-radius: 32px;
+        }
+        
+        .rectangle_17 {
+          width: 134px;
+          height: 40px;
+          left: 410px;
+          top: 1731px;
+          position: absolute;
+          background: #F2F2F2;
+          border-radius: 32px;
+        }
+        
+        .rectangle_18 {
+          width: 142px;
+          height: 40px;
+          left: 568px;
+          top: 1731px;
+          position: absolute;
+          background: #F2F2F2;
+          border-radius: 32px;
+        }
+        
+        .rectangle_19 {
+          width: 268px;
+          height: 574px;
+          left: 40px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_10 {
+          width: 268px;
+          height: 574px;
+          left: 40px;
+          top: 1819px;
+          position: absolute;
+        }
+        
+        .rectangle_20 {
+          width: 220px;
+          height: 42px;
+          left: 64px;
+          top: 2327px;
+          position: absolute;
+          border-radius: 100px;
+          border: 1px black solid;
+        }
+
+        .rectangle_21 {
+          width: 268px;
+          height: 574px;
+          left: 324px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_12 {
+          width: 268px;
+          height: 333px;
+          left: 324px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_13 {
+          width: 268px;
+          height: 333px;
+          left: 324px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .rectangle_22 {
+          width: 268px;
+          height: 42px;
+          left: 324px;
+          top: 2351px;
+          position: absolute;
+          border-radius: 100px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_23 {
+          width: 268px;
+          height: 574px;
+          left: 608px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_14 {
+          width: 268px;
+          height: 333px;
+          left: 608px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_15 {
+          width: 268px;
+          height: 333px;
+          left: 608px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .rectangle_24 {
+          width: 268px;
+          height: 42px;
+          left: 608px;
+          top: 2351px;
+          position: absolute;
+          border-radius: 100px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_25 {
+          width: 268px;
+          height: 574px;
+          left: 892px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_16 {
+          width: 268px;
+          height: 333px;
+          left: 892px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_17 {
+          width: 268px;
+          height: 333px;
+          left: 892px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .rectangle_26 {
+          width: 268px;
+          height: 42px;
+          left: 892px;
+          top: 2351px;
+          position: absolute;
+          border-radius: 100px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_27 {
+          width: 268px;
+          height: 574px;
+          left: 1176px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_18 {
+          width: 268px;
+          height: 333px;
+          left: 1176px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_19 {
+          width: 268px;
+          height: 333px;
+          left: 1176px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .rectangle_28 {
+          width: 268px;
+          height: 42px;
+          left: 1176px;
+          top: 2351px;
+          position: absolute;
+          border-radius: 100px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_29 {
+          width: 268px;
+          height: 574px;
+          left: 1460px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_20 {
+          width: 268px;
+          height: 333px;
+          left: 1460px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_21 {
+          width: 268px;
+          height: 333px;
+          left: 1460px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .rectangle_30 {
+          width: 268px;
+          height: 42px;
+          left: 1460px;
+          top: 2351px;
+          position: absolute;
+          border-radius: 100px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_31 {
+          width: 268px;
+          height: 574px;
+          left: 1744px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_22 {
+          width: 268px;
+          height: 333px;
+          left: 1744px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .image_23 {
+          width: 268px;
+          height: 333px;
+          left: 1744px;
+          top: 1819px;
+          position: absolute;
+          border-radius: 16px;
+        }
+        
+        .rectangle_32 {
+          width: 268px;
+          height: 42px;
+          left: 1744px;
+          top: 2351px;
+          position: absolute;
+          border-radius: 100px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_33 {
+          width: 1200px;
+          height: 1px;
+          left: 0px;
+          top: 3535px;
+          position: absolute;
+          background: black;
+        }
+        
+        .rectangle_34 {
+          width: 1200px;
+          height: 1077px;
+          left: 0px;
+          top: 2458px;
+          position: absolute;
+          background: #F8F7F3;
+        }
+        
+        .rectangle_35 {
+          width: 55px;
+          height: 20px;
+          left: 295px;
+          top: 2683px;
+          position: absolute;
+          background: black;
+          border-radius: 32px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_36 {
+          width: 80px;
+          height: 20px;
+          left: 374px;
+          top: 2683px;
+          position: absolute;
+          border-radius: 32px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_37 {
+          width: 100px;
+          height: 20px;
+          left: 478px;
+          top: 2683px;
+          position: absolute;
+          border-radius: 32px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_38 {
+          width: 147px;
+          height: 20px;
+          left: 602px;
+          top: 2683px;
+          position: absolute;
+          border-radius: 32px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_39 {
+          width: 133px;
+          height: 20px;
+          left: 773px;
+          top: 2683px;
+          position: absolute;
+          border-radius: 32px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_40 {
+          width: 373px;
+          height: 291px;
+          left: 24px;
+          top: 2762px;
+          position: absolute;
+          background: white;
+          border-radius: 8px;
+          border: 1px #DDDDDD solid;
+        }
+        
+        .rectangle_41 {
+          width: 371px;
+          height: 230px;
+          left: 25px;
+          top: 2763px;
+          position: absolute;
+          border-radius: 8px;
+        }
+        
+        .image_25 {
+          width: 186px;
+          height: 230px;
+          left: 25px;
+          top: 2763px;
+          position: absolute;
+        }
+        
+        .image_26 {
+          width: 186px;
+          height: 230px;
+          left: 211px;
+          top: 2763px;
+          position: absolute;
+        }
+        
+        .rectangle_42 {
+          width: 93px;
+          height: 24px;
+          left: 283px;
+          top: 3005px;
+          position: absolute;
+          background: #EBB243;
+          border-radius: 100px;
+        }
+        
+        .rectangle_43 {
+          width: 373px;
+          height: 291px;
+          left: 413px;
+          top: 2762px;
+          position: absolute;
+          background: white;
+          border-radius: 8px;
+          border: 1px #DDDDDD solid;
+        }
+        
+        .rectangle_44 {
+          width: 371px;
+          height: 230px;
+          left: 414px;
+          top: 2763px;
+          position: absolute;
+          border-radius: 8px;
+        }
+        
+        .image_27 {
+          width: 186px;
+          height: 230px;
+          left: 414px;
+          top: 2763px;
+          position: absolute;
+        }
+        
+        .image_28 {
+          width: 186px;
+          height: 230px;
+          left: 600px;
+          top: 2763px;
+          position: absolute;
+        }
+        
+        .rectangle_45 {
+          width: 93px;
+          height: 24px;
+          left: 673px;
+          top: 3005px;
+          position: absolute;
+          background: #EBB243;
+          border-radius: 100px;
+        }
+        
+        .rectangle_46 {
+          width: 373px;
+          height: 291px;
+          left: 803px;
+          top: 2762px;
+          position: absolute;
+          background: white;
+          border-radius: 8px;
+          border: 1px #DDDDDD solid;
+        }
+        
+        .rectangle_47 {
+          width: 371px;
+          height: 230px;
+          left: 804px;
+          top: 2763px;
+          position: absolute;
+          border-radius: 8px;
+        }
+        
+        .image_29 {
+          width: 186px;
+          height: 230px;
+          left: 804px;
+          top: 2763px;
+          position: absolute;
+        }
+        
+        .image_30 {
+          width: 186px;
+          height: 230px;
+          left: 989px;
+          top: 2763px;
+          position: absolute;
+        }
+        
+        .rectangle_48 {
+          width: 85px;
+          height: 24px;
+          left: 1070px;
+          top: 3005px;
+          position: absolute;
+          background: #6EB276;
+          border-radius: 100px;
+        }
+        
+        .rectangle_49 {
+          width: 373px;
+          height: 291px;
+          left: 24px;
+          top: 3077px;
+          position: absolute;
+          background: white;
+          border-radius: 8px;
+          border: 1px #DDDDDD solid;
+        }
+        
+        .rectangle_50 {
+          width: 371px;
+          height: 230px;
+          left: 25px;
+          top: 3078px;
+          position: absolute;
+          border-radius: 8px;
+        }
+        
+        .image_31 {
+          width: 186px;
+          height: 230px;
+          left: 25px;
+          top: 3078px;
+          position: absolute;
+        }
+        
+        .image_32 {
+          width: 186px;
+          height: 230px;
+          left: 211px;
+          top: 3078px;
+          position: absolute;
+        }
+        
+        .rectangle_51 {
+          width: 45px;
+          height: 24px;
+          left: 331px;
+          top: 3320px;
+          position: absolute;
+          background: #D40000;
+          border-radius: 100px;
+        }
+        
+        .rectangle_52 {
+          width: 373px;
+          height: 291px;
+          left: 413px;
+          top: 3077px;
+          position: absolute;
+          background: white;
+          border-radius: 8px;
+          border: 1px #DDDDDD solid;
+        }
+        
+        .rectangle_53 {
+          width: 371px;
+          height: 230px;
+          left: 414px;
+          top: 3078px;
+          position: absolute;
+          border-radius: 8px;
+        }
+        
+        .image_33 {
+          width: 186px;
+          height: 230px;
+          left: 414px;
+          top: 3078px;
+          position: absolute;
+        }
+        
+        .image_34 {
+          width: 186px;
+          height: 230px;
+          left: 600px;
+          top: 3078px;
+          position: absolute;
+        }
+        
+        .rectangle_54 {
+          width: 45px;
+          height: 24px;
+          left: 721px;
+          top: 3320px;
+          position: absolute;
+          background: #D40000;
+          border-radius: 100px;
+        }
+        
+        .rectangle_55 {
+          width: 373px;
+          height: 291px;
+          left: 803px;
+          top: 3077px;
+          position: absolute;
+          background: white;
+          border-radius: 8px;
+          border: 1px #DDDDDD solid;
+        }
+        
+        .rectangle_56 {
+          width: 371px;
+          height: 230px;
+          left: 804px;
+          top: 3078px;
+          position: absolute;
+          border-radius: 8px;
+        }
+        
+        .image_35 {
+          width: 186px;
+          height: 230px;
+          left: 804px;
+          top: 3078px;
+          position: absolute;
+        }
+        
+        .image_36 {
+          width: 186px;
+          height: 230px;
+          left: 989px;
+          top: 3078px;
+          position: absolute;
+        }
+        
+        .rectangle_57 {
+          width: 93px;
+          height: 24px;
+          left: 1062px;
+          top: 3320px;
+          position: absolute;
+          background: #FBC334;
+          border-radius: 100px;
+        }
+        
+        .rectangle_58 {
+          width: 132px;
+          height: 54px;
+          left: 534px;
+          top: 3416px;
+          position: absolute;
+          border-radius: 40px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_59 {
+          width: 1200px;
+          height: 1px;
+          left: 0px;
+          top: 5036px;
+          position: absolute;
+          background: black;
+        }
+        
+        .rectangle_60 {
+          width: 1200px;
+          height: 1501px;
+          left: 0px;
+          top: 3535px;
+          position: absolute;
+        }
+        
+        .rectangle_61 {
+          width: 471px;
+          height: 539px;
+          left: 121px;
+          top: 3770px;
+          position: absolute;
+          background: white;
+          border-radius: 16px;
+        }
+        
+        .image_37 {
+          width: 471px;
+          height: 350px;
+          left: 121px;
+          top: 3770px;
+          position: absolute;
+        }
+        
+        .rectangle_62 {
+          width: 1px;
+          height: 189px;
+          left: 121.33px;
+          top: 4120px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_63 {
+          width: 1px;
+          height: 189px;
+          left: 590.94px;
+          top: 4120px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_64 {
+          width: 468.61px;
+          height: 1px;
+          left: 122.33px;
+          top: 4309px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_65 {
+          width: 469px;
+          height: 189px;
+          left: 122px;
+          top: 4120px;
+          position: absolute;
+          border-bottom-right-radius: 16px;
+          border-bottom-left-radius: 16px;
+        }
+        
+        .rectangle_66 {
+          width: 471px;
+          height: 539px;
+          left: 608px;
+          top: 3770px;
+          position: absolute;
+          background: white;
+          border-radius: 16px;
+        }
+        
+        .image_38 {
+          width: 471px;
+          height: 350px;
+          left: 608px;
+          top: 3770px;
+          position: absolute;
+        }
+        
+        .rectangle_67 {
+          width: 1px;
+          height: 189px;
+          left: 607.94px;
+          top: 4120px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_68 {
+          width: 1px;
+          height: 189px;
+          left: 1077.55px;
+          top: 4120px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_69 {
+          width: 468.61px;
+          height: 1px;
+          left: 608.94px;
+          top: 4309px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_70 {
+          width: 469px;
+          height: 189px;
+          left: 609px;
+          top: 4120px;
+          position: absolute;
+          border-bottom-right-radius: 16px;
+          border-bottom-left-radius: 16px;
+        }
+        
+        .rectangle_71 {
+          width: 308px;
+          height: 501px;
+          left: 121px;
+          top: 4373px;
+          position: absolute;
+          background: white;
+          border-radius: 16px;
+        }
+        
+        .image_39 {
+          width: 308px;
+          height: 312px;
+          left: 121px;
+          top: 4373px;
+          position: absolute;
+        }
+        
+        .rectangle_72 {
+          width: 1px;
+          height: 189px;
+          left: 121.33px;
+          top: 4685px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_73 {
+          width: 1px;
+          height: 189px;
+          left: 428.73px;
+          top: 4685px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_74 {
+          width: 306.41px;
+          height: 1px;
+          left: 122.33px;
+          top: 4874px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_75 {
+          width: 306px;
+          height: 189px;
+          left: 122px;
+          top: 4685px;
+          position: absolute;
+          border-bottom-right-radius: 16px;
+          border-bottom-left-radius: 16px;
+        }
+        
+        .rectangle_76 {
+          width: 308px;
+          height: 501px;
+          left: 446px;
+          top: 4373px;
+          position: absolute;
+          background: white;
+          border-radius: 16px;
+        }
+        
+        .image_40 {
+          width: 308px;
+          height: 312px;
+          left: 446px;
+          top: 4373px;
+          position: absolute;
+        }
+        
+        .rectangle_77 {
+          width: 1px;
+          height: 189px;
+          left: 445.73px;
+          top: 4685px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_78 {
+          width: 1px;
+          height: 189px;
+          left: 753.14px;
+          top: 4685px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_79 {
+          width: 306.41px;
+          height: 1px;
+          left: 446.73px;
+          top: 4874px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_80 {
+          width: 306px;
+          height: 189px;
+          left: 447px;
+          top: 4685px;
+          position: absolute;
+          border-bottom-right-radius: 16px;
+          border-bottom-left-radius: 16px;
+        }
+        
+        .rectangle_81 {
+          width: 308px;
+          height: 501px;
+          left: 770px;
+          top: 4373px;
+          position: absolute;
+          background: white;
+          border-radius: 16px;
+        }
+        
+        .image_41 {
+          width: 308px;
+          height: 312px;
+          left: 770px;
+          top: 4373px;
+          position: absolute;
+        }
+        
+        .rectangle_82 {
+          width: 1px;
+          height: 189px;
+          left: 770.14px;
+          top: 4685px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_83 {
+          width: 1px;
+          height: 189px;
+          left: 1077.55px;
+          top: 4685px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_84 {
+          width: 306.41px;
+          height: 1px;
+          left: 771.14px;
+          top: 4874px;
+          position: absolute;
+          background: #D9D9D9;
+        }
+        
+        .rectangle_85 {
+          width: 306px;
+          height: 189px;
+          left: 771px;
+          top: 4685px;
+          position: absolute;
+          border-bottom-right-radius: 16px;
+          border-bottom-left-radius: 16px;
+        }
+        
+        .rectangle_86 {
+          width: 237px;
+          height: 49px;
+          left: 481px;
+          top: 4922px;
+          position: absolute;
+          border-radius: 100px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_87 {
+          width: 1200px;
+          height: 1px;
+          left: 0px;
+          top: 5923.50px;
+          position: absolute;
+          background: black;
+        }
+        
+        .rectangle_88 {
+          width: 1200px;
+          height: 888px;
+          left: 0px;
+          top: 5036px;
+          position: absolute;
+          background: #F8F7F3;
+        }
+        
+        .image_42 {
+          width: 160px;
+          height: 115px;
+          left: 520px;
+          top: 5189px;
+          position: absolute;
+        }
+        
+        .rectangle_89 {
+          width: 350px;
+          height: 273px;
+          left: 24px;
+          top: 5334px;
+          position: absolute;
+          background: white;
+          box-shadow: -4px 0px 14px rgba(0, 0, 0, 0.06);
+          border-radius: 8px;
+          border: 1px #D9D9D9 solid;
+        }
+        
+        .image_43 {
+          width: 80px;
+          height: 16px;
+          left: 39px;
+          top: 5385px;
+          position: absolute;
+        }
+        
+        .rectangle_90 {
+          width: 350px;
+          height: 294px;
+          left: 390px;
+          top: 5334px;
+          position: absolute;
+          background: white;
+          box-shadow: -4px 0px 14px rgba(0, 0, 0, 0.06);
+          border-radius: 8px;
+          border: 1px #D9D9D9 solid;
+        }
+        
+        .image_44 {
+          width: 80px;
+          height: 16px;
+          left: 405px;
+          top: 5385px;
+          position: absolute;
+        }
+        
+        .rectangle_91 {
+          width: 350px;
+          height: 336px;
+          left: 756px;
+          top: 5334px;
+          position: absolute;
+          background: white;
+          box-shadow: -4px 0px 14px rgba(0, 0, 0, 0.06);
+          border-radius: 8px;
+          border: 1px #D9D9D9 solid;
+        }
+        
+        .image_45 {
+          width: 80px;
+          height: 16px;
+          left: 771px;
+          top: 5406px;
+          position: absolute;
+        }
+        
+        .rectangle_92 {
+          width: 350px;
+          height: 420px;
+          left: 1122px;
+          top: 5334px;
+          position: absolute;
+          background: white;
+          box-shadow: -4px 0px 14px rgba(0, 0, 0, 0.06);
+          border-radius: 8px;
+          border: 1px #D9D9D9 solid;
+        }
+        
+        .image_46 {
+          width: 80px;
+          height: 16px;
+          left: 1137px;
+          top: 5385px;
+          position: absolute;
+        }
+        
+        .rectangle_93 {
+          width: 350px;
+          height: 378px;
+          left: 1488px;
+          top: 5334px;
+          position: absolute;
+          background: white;
+          box-shadow: -4px 0px 14px rgba(0, 0, 0, 0.06);
+          border-radius: 8px;
+          border: 1px #D9D9D9 solid;
+        }
+        
+        .image_47 {
+          width: 80px;
+          height: 16px;
+          left: 1503px;
+          top: 5385px;
+          position: absolute;
+        }
+        
+        .rectangle_94 {
+          width: 350px;
+          height: 315px;
+          left: 1854px;
+          top: 5334px;
+          position: absolute;
+          background: white;
+          box-shadow: -4px 0px 14px rgba(0, 0, 0, 0.06);
+          border-radius: 8px;
+          border: 1px #D9D9D9 solid;
+        }
+        
+        .image_48 {
+          width: 80px;
+          height: 16px;
+          left: 1869px;
+          top: 5406px;
+          position: absolute;
+        }
+        
+        .rectangle_95 {
+          width: 350px;
+          height: 294px;
+          left: 2220px;
+          top: 5334px;
+          position: absolute;
+          background: white;
+          box-shadow: -4px 0px 14px rgba(0, 0, 0, 0.06);
+          border-radius: 8px;
+          border: 1px #D9D9D9 solid;
+        }
+        
+        .image_49 {
+          width: 80px;
+          height: 16px;
+          left: 2235px;
+          top: 5385px;
+          position: absolute;
+        }
+        
+        .rectangle_96 {
+          width: 350px;
+          height: 525px;
+          left: 2586px;
+          top: 5334px;
+          position: absolute;
+          background: white;
+          box-shadow: -4px 0px 14px rgba(0, 0, 0, 0.06);
+          border-radius: 8px;
+          border: 1px #D9D9D9 solid;
+        }
+        
+        .image_50 {
+          width: 80px;
+          height: 16px;
+          left: 2601px;
+          top: 5385px;
+          position: absolute;
+        }
+        
+        .rectangle_97 {
+          width: 350px;
+          height: 252px;
+          left: 2952px;
+          top: 5334px;
+          position: absolute;
+          background: white;
+          box-shadow: -4px 0px 14px rgba(0, 0, 0, 0.06);
+          border-radius: 8px;
+          border: 1px #D9D9D9 solid;
+        }
+        
+        .image_51 {
+          width: 80px;
+          height: 16px;
+          left: 2967px;
+          top: 5385px;
+          position: absolute;
+        }
+        
+        .rectangle_98 {
+          width: 1200px;
+          height: 1px;
+          left: 0px;
+          top: 6509.50px;
+          position: absolute;
+          background: black;
+        }
+        
+        .rectangle_99 {
+          width: 1200px;
+          height: 586px;
+          left: 0px;
+          top: 5924px;
+          position: absolute;
+        }
+        
+        .rectangle_100 {
+          width: 957px;
+          height: 70px;
+          left: 121px;
+          top: 6093px;
+          position: absolute;
+          border-radius: 16px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_101 {
+          width: 957px;
+          height: 70px;
+          left: 121px;
+          top: 6187px;
+          position: absolute;
+          border-radius: 16px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_102 {
+          width: 957px;
+          height: 70px;
+          left: 121px;
+          top: 6281px;
+          position: absolute;
+          border-radius: 16px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_103 {
+          width: 957px;
+          height: 70px;
+          left: 121px;
+          top: 6375px;
+          position: absolute;
+          border-radius: 16px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_104 {
+          width: 1200px;
+          height: 1px;
+          left: 0px;
+          top: 7033.50px;
+          position: absolute;
+          background: black;
+        }
+        
+        .rectangle_105 {
+          width: 1200px;
+          height: 524px;
+          left: 0px;
+          top: 6510px;
+          position: absolute;
+        }
+        
+        .rectangle_106 {
+          width: 600px;
+          height: 395px;
+          left: 600px;
+          top: 6574px;
+          position: absolute;
+          border-radius: 18px;
+        }
+        
+        .rectangle_107 {
+          width: 350px;
+          height: 347px;
+          left: 600px;
+          top: 6598px;
+          position: absolute;
+          background: white;
+          box-shadow: 0px 4px 54px white;
+          border-radius: 16px;
+          border: 1px black solid;
+        }
+        
+        .image_55 {
+          width: 316px;
+          height: 226px;
+          left: 617px;
+          top: 6615px;
+          position: absolute;
+          border-radius: 8px;
+        }
+        
+        .rectangle_108 {
+          width: 350px;
+          height: 347px;
+          left: 970px;
+          top: 6598px;
+          position: absolute;
+          background: white;
+          box-shadow: 0px 4px 54px white;
+          border-radius: 16px;
+          border: 1px black solid;
+        }
+        
+        .image_56 {
+          width: 316px;
+          height: 226px;
+          left: 987px;
+          top: 6615px;
+          position: absolute;
+          border-radius: 8px;
+        }
+        
+        .rectangle_109 {
+          width: 350px;
+          height: 347px;
+          left: 1340px;
+          top: 6598px;
+          position: absolute;
+          background: white;
+          box-shadow: 0px 4px 54px white;
+          border-radius: 16px;
+          border: 1px black solid;
+        }
+        
+        .image_57 {
+          width: 316px;
+          height: 226px;
+          left: 1357px;
+          top: 6615px;
+          position: absolute;
+          border-radius: 8px;
+        }
+        
+        .rectangle_110 {
+          width: 254px;
+          height: 347px;
+          left: 1710px;
+          top: 6598px;
+          position: absolute;
+          background: white;
+          box-shadow: 0px 4px 54px white;
+          border-radius: 16px;
+          border: 1px black solid;
+        }
+        
+        .rectangle_111 {
+          width: 220px;
+          height: 226px;
+          left: 1727px;
+          top: 6615px;
+          position: absolute;
+          border-radius: 8px;
+        }
+        
+        .rectangle_112 {
+          width: 1200px;
+          height: 1px;
+          left: 0px;
+          top: 7642.50px;
+          position: absolute;
+          background: black;
+        }
+        
+        .rectangle_113 {
+          width: 1200px;
+          height: 609px;
+          left: 0px;
+          top: 7034px;
+          position: absolute;
+        }
+        
+        .image_58 {
+          width: 154px;
+          height: 223px;
+          left: 183px;
+          top: 7219px;
+          position: absolute;
+          border-radius: 30px;
+          border: 2px black solid;
+        }
+        
+        .rectangle_114 {
+          width: 98px;
+          height: 40px;
+          left: 211px;
+          top: 7422px;
+          position: absolute;
+          background: white;
+          border-radius: 26px;
+          border: 2px black solid;
+        }
+        
+        .image_59 {
+          width: 154px;
+          height: 223px;
+          left: 523px;
+          top: 7219px;
+          position: absolute;
+          border-radius: 30px;
+          border: 2px black solid;
+        }
+        
+        .rectangle_115 {
+          width: 102px;
+          height: 40px;
+          left: 549px;
+          top: 7422px;
+          position: absolute;
+          background: white;
+          border-radius: 26px;
+          border: 2px black solid;
+        }
+        
+        .image_60 {
+          width: 154px;
+          height: 223px;
+          left: 863px;
+          top: 7219px;
+          position: absolute;
+          border-radius: 30px;
+          border: 2px black solid;
+        }
+        
+        .rectangle_116 {
+          width: 103px;
+          height: 40px;
+          left: 889px;
+          top: 7422px;
+          position: absolute;
+          background: white;
+          border-radius: 26px;
+          border: 2px black solid;
+        }
+        
+        .rectangle_117 {
+          width: 1200px;
+          height: 1px;
+          left: 0px;
+          top: 8202.50px;
+          position: absolute;
+          background: black;
+        }
+        
+        .rectangle_118 {
+          width: 1200px;
+          height: 560px;
+          left: 0px;
+          top: 7643px;
+          position: absolute;
+        }
+        
+        .rectangle_119 {
+          width: 216px;
+          height: 44px;
+          left: 492px;
+          top: 7788px;
+          position: absolute;
+          background: black;
+          border-radius: 8px;
+        }
+        
+        .rectangle_120 {
+          width: 1200px;
+          height: 639px;
+          left: 0px;
+          top: 8203px;
+          position: absolute;
+          background: black;
+        }
+        
+        .image_62 {
+          width: 140px;
+          height: 100px;
+          left: 24px;
+          top: 8596px;
+          position: absolute;
+        }
+        
+        .rectangle_121 {
+          width: 187px;
+          height: 47px;
+          left: 900px;
+          top: 8499px;
+          position: absolute;
+          background: white;
+          border-radius: 100px;
+        }
+        
+        .image_63 {
+          width: 202px;
+          height: 30px;
+          left: 499px;
+          top: 8712px;
+          position: absolute;
+        }
+        
+        .rectangle_122 {
+          width: 1200px;
+          height: 1px;
+          left: 0px;
+          top: 8779px;
+          position: absolute;
+          background: white;
+        }
+        
+        .acne_span {
+          color: black;
+          font-size: 19px;
+          font-family: Roboto;
+          font-weight: 500;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .acne {
+          width: 43px;
+          left: 273px;
+          top: 27px;
+          position: absolute;
+        }
+        
+        .ageing_span {
+          color: black;
+          font-size: 19px;
+          font-family: Roboto;
+          font-weight: 500;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .ageing {
+          width: 60px;
+          left: 347px;
+          top: 27px;
+          position: absolute;
+        }
+        
+        .pigmentation_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 500;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .pigmentation {
+          width: 115px;
+          left: 437px;
+          top: 29px;
+          position: absolute;
+        }
+        
+        .everydaycare_span {
+          color: black;
+          font-size: 19px;
+          font-family: Roboto;
+          font-weight: 500;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .everyday-care {
+          width: 119px;
+          left: 576px;
+          top: 27px;
+          position: absolute;
+        }
+        
+        .hairloss_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 500;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .hair-loss {
+          width: 78px;
+          left: 724px;
+          top: 27px;
+          position: absolute;
+        }
+        
+        .learn_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 500;
+          line-height: 18px;
+          letter-spacing: 0.60px;
+          word-wrap: break-word;
+        }
+        
+        .learn {
+          width: 56px;
+          left: 826px;
+          top: 29px;
+          position: absolute;
+        }
+        
+        .f_span {
+          color: black;
+          font-size: 11px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 18px;
+          word-wrap: break-word;
+        }
+        
+        .text-0 {
+          width: 7px;
+          left: 1022px;
+          top: 29px;
+          position: absolute;
+          text-align: center;
+        }
+        
+        .login_span {
+          color: black;
+          font-size: 15px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 19px;
+          word-wrap: break-word;
+        }
+        
+        .log-in {
+          width: 43px;
+          left: 1108px;
+          top: 30px;
+          position: absolute;
+        }
+        
+        .wheresciencemeetsskincare_span {
+          color: black;
+          font-size: 60px;
+          font-family: Roboto;
+          font-weight: 500;
+          line-height: 78.40px;
+          word-wrap: break-word;
+        }
+        
+        .where-science-meets-skincare {
+          width: 427px;
+          left: 24px;
+          top: 287px;
+          position: absolute;
+        }
+        
+        .createmyformula_span {
+          color: white;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .create-my-formula {
+          width: 152px;
+          left: 48px;
+          top: 484px;
+          position: absolute;
+        }
+        
+        .oneformulatorulethemall_span {
+          color: black;
+          font-size: 45px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 57.60px;
+          word-wrap: break-word;
+        }
+        
+        .one-formula-to-rule-them-all {
+          width: 302px;
+          left: 121px;
+          top: 915px;
+          position: absolute;
+        }
+
+        .worktogetherwithyourdoctortocreateacustomformulaforyourskinconcernsandwellmakesureyourtreatmentevolvesasyoudo_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 500;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .work-together-with-your-doctor-to-create-a-custom-formula-for-your-skin-concerns-and-well-make-sure-your-treatment-evolves-as-you-do {
+          width: 394px;
+          left: 122px;
+          top: 1054px;
+          position: absolute;
+        }
+        
+        .createmyformula_01_span {
+          color: white;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .create-my-formula_01 {
+          width: 160px;
+          left: 145px;
+          top: 1176px;
+          position: absolute;
+        }
+        
+        .gettoyourgoalsfaster_span {
+          color: black;
+          font-size: 45px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 56.60px;
+          word-wrap: break-word;
+        }
+        
+        .get-to-your-goals-faster {
+          width: 510px;
+          left: 23px;
+          top: 1642px;
+          position: absolute;
+        }
+        
+        .idliketobrowsefor_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .id-like-to-browse-for {
+          width: 153px;
+          left: 24px;
+          top: 1740px;
+          position: absolute;
+        }
+        
+        .acne_01_span {
+          color: white;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .acne_01 {
+          width: 41px;
+          left: 217px;
+          top: 1740px;
+          position: absolute;
+        }
+        
+        .ageing_01_span {
+          color: #737373;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .ageing_01 {
+          width: 56px;
+          left: 314px;
+          top: 1740px;
+          position: absolute;
+        }
+        
+        .pigmentation_01_span {
+          color: #737373;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .pigmentation_01 {
+          width: 102px;
+          left: 426px;
+          top: 1740px;
+          position: absolute;
+        }
+        
+        .everydaycare_01_span {
+          color: #737373;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .everyday-care_01 {
+          width: 110px;
+          left: 584px;
+          top: 1740px;
+          position: absolute;
+        }
+        
+        .yourcustomprescriptionformula_span {
+          color: black;
+          font-size: 23px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 28.80px;
+          word-wrap: break-word;
+        }
+        
+        .your-custom-prescription-formula {
+          width: 215px;
+          left: 64px;
+          top: 2225px;
+          position: absolute;
+        }
+        
+        .f8every8weeks_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .text-88-every-8-weeks {
+          width: 151px;
+          left: 64px;
+          top: 2290px;
+          position: absolute;
+        }
+        
+        .createmyformula_02_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .create-my-formula_02 {
+          width: 142px;
+          left: 89px;
+          top: 2337px;
+          position: absolute;
+        }
+        
+        .theacnekit_span {
+          color: black;
+          font-size: 23px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 28.80px;
+          word-wrap: break-word;
+        }
+        
+        .the-acne-kit {
+          width: 130px;
+          left: 324px;
+          top: 2167px;
+          position: absolute;
+        }
+        
+        .meetthecompleteacne-fightingkitdesignedtotargetacneatallstages_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .meet-the-complete-acne-fighting-kit-designed-to-target-acne-at-all-stages {
+          width: 251px;
+          left: 324px;
+          top: 2212px;
+          position: absolute;
+        }
+        
+        .addtocart_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .add-to-cart {
+          width: 84px;
+          left: 349px;
+          top: 2361px;
+          position: absolute;
+        }
+        
+        .f40_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .text-140 {
+          width: 42px;
+          left: 525px;
+          top: 2361px;
+          position: absolute;
+        }
+        
+        .acnesupplement_span {
+          color: black;
+          font-size: 23px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 28.80px;
+          word-wrap: break-word;
+        }
+        
+        .acne-supplement {
+          width: 183px;
+          left: 608px;
+          top: 2167px;
+          position: absolute;
+        }
+        
+        .dermatologist-designeddailycapsulesthatsupportskinhealthandfightacnefromtheinsideout_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .dermatologist-designed-daily-capsules-that-support-skin-health-and-fight-acne-from-the-inside-out {
+          width: 261px;
+          left: 608px;
+          top: 2212px;
+          position: absolute;
+        }
+        
+        .addtocart_01_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .add-to-cart_01 {
+          width: 84px;
+          left: 633px;
+          top: 2361px;
+          position: absolute;
+        }
+        
+        .f2_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .text-42 {
+          width: 35px;
+          left: 816px;
+          top: 2361px;
+          position: absolute;
+        }
+        
+        .ahabhapimplepatches_span {
+          color: black;
+          font-size: 23px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 28.80px;
+          word-wrap: break-word;
+        }
+        
+        .ahabha-pimple-patches {
+          width: 268px;
+          left: 892px;
+          top: 2167px;
+          position: absolute;
+        }
+        
+        .microdartpimplepatchesdesignedtopenetratepimplesandkillbacteriadeepwithintheskin_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .microdart-pimple-patches-designed-to-penetrate-pimples-and-kill-bacteria-deep-within-the-skin {
+          width: 243px;
+          left: 892px;
+          top: 2212px;
+          position: absolute;
+        }
+        
+        .addtocart_02_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .add-to-cart_02 {
+          width: 84px;
+          left: 917px;
+          top: 2361px;
+          position: absolute;
+        }
+        
+        .f9_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .text-39 {
+          width: 37px;
+          left: 1098px;
+          top: 2361px;
+          position: absolute;
+        }
+        
+        .ceramiderepairbalm_span {
+          color: black;
+          font-size: 23px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 28.80px;
+          word-wrap: break-word;
+        }
+        
+        .ceramide-repair-balm {
+          width: 231px;
+          left: 1176px;
+          top: 2167px;
+          position: absolute;
+        }
+        
+        .arichmoisturisertonourishdrynessandrepairtheskinbarrier_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .a-rich-moisturiser-to-nourish-dryness-and-repair-the-skin-barrier {
+          width: 265px;
+          left: 1176px;
+          top: 2212px;
+          position: absolute;
+        }
+        
+        .addtocart_03_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .add-to-cart_03 {
+          width: 84px;
+          left: 1201px;
+          top: 2361px;
+          position: absolute;
+        }
+        
+        .f9_01_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .text-39_01 {
+          width: 37px;
+          left: 1382px;
+          top: 2361px;
+          position: absolute;
+        }
+        
+        .salicylicacidfoamingwash_span {
+          color: black;
+          font-size: 24px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 28.80px;
+          word-wrap: break-word;
+        }
+        
+        .salicylic-acid-foaming-wash {
+          width: 230px;
+          left: 1460px;
+          top: 2167px;
+          position: absolute;
+        }
+        
+        .agentleexfoliatingwashtargetingacne-causingbacteriaandskinimpurities_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .a-gentle-exfoliating-wash-targeting-acne-causing-bacteria-and-skin-impurities {
+          width: 266px;
+          left: 1460px;
+          top: 2240px;
+          position: absolute;
+        }
+        
+        .addtocart_04_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .add-to-cart_04 {
+          width: 84px;
+          left: 1485px;
+          top: 2361px;
+          position: absolute;
+        }
+        
+        .f2_span_01 {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .text-32 {
+          width: 36px;
+          left: 1667px;
+          top: 2361px;
+          position: absolute;
+        }
+        
+        .softwareessentials_span {
+          color: black;
+          font-size: 23px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 28.80px;
+          word-wrap: break-word;
+        }
+        
+        .software-essentials {
+          width: 205px;
+          left: 1744px;
+          top: 2167px;
+          position: absolute;
+        }
+        
+        .acomprehensiveroutinedesignedtoenhanceyourcustomsoftwareformula_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .a-comprehensive-routine-designed-to-enhance-your-custom-software-formula {
+          width: 264px;
+          left: 1744px;
+          top: 2212px;
+          position: absolute;
+        }
+        
+        .addtocart_05_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .add-to-cart_05 {
+          width: 84px;
+          left: 1769px;
+          top: 2361px;
+          position: absolute;
+        }
+        
+        .f0_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .text-90 {
+          width: 37px;
+          left: 1950px;
+          top: 2361px;
+          position: absolute;
+        }
+        
+        .realpeoplerealresults_span {
+          color: black;
+          font-size: 45px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 57.60px;
+          word-wrap: break-word;
+        }
+        
+        .real-people-real-results {
+          width: 506px;
+          left: 347px;
+          top: 2521px;
+          position: absolute;
+          text-align: center;
+        }
+        
+        .seeglowingreviewsfrommembersofourthrivingcommunity_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .see-glowing-reviews-from-members-of-our-thriving-community {
+          width: 479px;
+          left: 361px;
+          top: 2603px;
+          position: absolute;
+          text-align: center;
+        }
+        
+        .all_span {
+          color: white;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .all {
+          width: 21px;
+          left: 312px;
+          top: 2681px;
+          position: absolute;
+        }
+        
+        .acne_02_span {
+          color: #222222;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .acne_02 {
+          width: 46px;
+          left: 391px;
+          top: 2681px;
+          position: absolute;
+        }
+        
+        .texture_span {
+          color: #222222;
+          font-size: 19px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .texture {
+          width: 66px;
+          left: 495px;
+          top: 2681px;
+          position: absolute;
+        }
+        
+        .pigmentation_02_span {
+          color: #222222;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .pigmentation_02 {
+          width: 113px;
+          left: 619px;
+          top: 2681px;
+          position: absolute;
+        }
+        
+        .anti-ageing_span {
+          color: #222222;
+          font-size: 19px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .anti-ageing {
+          width: 99px;
+          left: 790px;
+          top: 2681px;
+          position: absolute;
+        }
+        
+        .laura32_span {
+          color: black;
+          font-size: 16px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 19.20px;
+          word-wrap: break-word;
+        }
+        
+        .laura-32 {
+          width: 67px;
+          left: 37px;
+          top: 3006px;
+          position: absolute;
+        }
+        
+        .westernaustralia_span {
+          color: #999999;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .western-australia {
+          width: 106px;
+          left: 37px;
+          top: 3024px;
+          position: absolute;
+        }
+        
+        .pigmentation_03_span {
+          color: black;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 14px;
+          word-wrap: break-word;
+        }
+        
+        .pigmentation_03 {
+          width: 79px;
+          left: 290px;
+          top: 3006px;
+          position: absolute;
+        }
+        
+        .eliza33_span {
+          color: black;
+          font-size: 16px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 19.20px;
+          word-wrap: break-word;
+        }
+        
+        .eliza-33 {
+          width: 62px;
+          left: 426px;
+          top: 3006px;
+          position: absolute;
+        }
+        
+        .newsouthwales_span {
+          color: #999999;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .new-south-wales {
+          width: 106px;
+          left: 426px;
+          top: 3024px;
+          position: absolute;
+        }
+        
+        .pigmentation_04_span {
+          color: black;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 14px;
+          word-wrap: break-word;
+        }
+        
+        .pigmentation_04 {
+          width: 79px;
+          left: 680px;
+          top: 3006px;
+          position: absolute;
+        }
+        
+        .kristy43_span {
+          color: black;
+          font-size: 16px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 19.20px;
+          word-wrap: break-word;
+        }
+        
+        .kristy-43 {
+          width: 68px;
+          left: 816px;
+          top: 3006px;
+          position: absolute;
+        }
+        
+        .nsw_span {
+          color: #999999;
+          font-size: 14px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .nsw {
+          width: 32px;
+          left: 816px;
+          top: 3024px;
+          position: absolute;
+        }
+        
+        .anti-ageing_span_01 {
+          color: black;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 14px;
+          word-wrap: break-word;
+        }
+        
+        .anti-ageing_01 {
+          width: 71px;
+          left: 1077px;
+          top: 3006px;
+          position: absolute;
+        }
+        
+        .andrea27_span {
+          color: black;
+          font-size: 16px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 19.20px;
+          word-wrap: break-word;
+        }
+        
+        .andrea-27 {
+          width: 78px;
+          left: 37px;
+          top: 3321px;
+          position: absolute;
+        }
+        
+        .sydney_span {
+          color: #999999;
+          font-size: 14px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .sydney {
+          width: 46px;
+          left: 37px;
+          top: 3340px;
+          position: absolute;
+        }
+        
+        .acne_03_span {
+          color: black;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 14px;
+          word-wrap: break-word;
+        }
+        
+        .acne_03 {
+          width: 31px;
+          left: 338px;
+          top: 3321px;
+          position: absolute;
+        }
+        
+        .danielle_span {
+          color: black;
+          font-size: 16px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 19.20px;
+          word-wrap: break-word;
+        }
+        
+        .danielle {
+          width: 59px;
+          left: 426px;
+          top: 3320px;
+          position: absolute;
+        }
+        
+        .acne_04_span {
+          color: black;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 14px;
+          word-wrap: break-word;
+        }
+        
+        .acne_04 {
+          width: 31px;
+          left: 728px;
+          top: 3321px;
+          position: absolute;
+        }
+        
+        .tani27_span {
+          color: black;
+          font-size: 15px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 19.20px;
+          word-wrap: break-word;
+        }
+        
+        .tani-27 {
+          width: 54px;
+          left: 816px;
+          top: 3322px;
+          position: absolute;
+        }
+        
+        .brisbane_span {
+          color: #999999;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .brisbane {
+          width: 54px;
+          left: 816px;
+          top: 3339px;
+          position: absolute;
+        }
+        
+        .pigmentation_05_span {
+          color: black;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 14px;
+          word-wrap: break-word;
+        }
+        
+        .pigmentation_05 {
+          width: 79px;
+          left: 1069px;
+          top: 3321px;
+          position: absolute;
+        }
+        
+        .showmore_span {
+          color: black;
+          font-size: 16px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .show-more {
+          width: 82px;
+          left: 559px;
+          top: 3433px;
+          position: absolute;
+        }
+        
+        .ingredientsyoucantgetofftheshelf_span {
+          color: black;
+          font-size: 45px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 57.60px;
+          word-wrap: break-word;
+        }
+        
+        .ingredients-you-cant-get-off-the-shelf {
+          width: 743px;
+          left: 228px;
+          top: 3598px;
+          position: absolute;
+          text-align: center;
+        }
+        
+        .yourcustomformulacombinesscientifically-backedingredientsatjusttherightstrengthforyourskin_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .your-custom-formula-combines-scientifically-backed-ingredientsat-just-the-right-strength-for-your-skin {
+          width: 758px;
+          left: 221px;
+          top: 3680px;
+          position: absolute;
+          text-align: center;
+        }
+        
+        .retinoid_span {
+          color: black;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 24px;
+          word-wrap: break-word;
+        }
+        
+        .retinoid {
+          width: 77px;
+          left: 147px;
+          top: 4144px;
+          position: absolute;
+        }
+        
+        .thesilverbulletofskincareactivesretinoidsincreaseskincellturnoverandboostcollagenproductionitalsoreducesacneandinflammationleavingyourskinclearfirmandglowing_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .the-silver-bullet-of-skin-care-actives-retinoids-increase-skin-cell-turnover-and-boost-collagen-production-it-also-reduces-acne-and-inflammation-leaving-your-skin-clear-firm-and-glowing {
+          width: 385px;
+          left: 147px;
+          top: 4176px;
+          position: absolute;
+        }
+        
+        .azelaicacid_span {
+          color: black;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 24px;
+          word-wrap: break-word;
+        }
+        
+        .azelaic-acid {
+          width: 112px;
+          left: 634px;
+          top: 4144px;
+          position: absolute;
+        }
+        
+        .theultimateacnefighterazelaicacideliminatesbacteriaandreducesinflammationwhichminimisesacneandkeepsfuturebreakoutsatbay_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .the-ultimate-acne-fighter-azelaic-acid-eliminates-bacteria-and-reduces-inflammation-which-minimises-acne-and-keeps-future-breakouts-at-bay {
+          width: 401px;
+          left: 634px;
+          top: 4176px;
+          position: absolute;
+        }
+        
+        .niacinamide_span {
+          color: black;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 24px;
+          word-wrap: break-word;
+        }
+        
+        .niacinamide {
+          width: 113px;
+          left: 147px;
+          top: 4709px;
+          position: absolute;
+        }
+        
+        .theperfectcomplimenttoclinical-gradeactivesitstrengthenstheskinbarrierandhelpsrebuildnewskincells_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .the-perfect-compliment-to-clinical-grade-actives-it-strengthens-the-skin-barrier-and-helps-rebuild-new-skin-cells {
+          width: 247px;
+          left: 147px;
+          top: 4741px;
+          position: absolute;
+        }
+        
+        .hyaluronicacid_span {
+          color: black;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 24px;
+          word-wrap: break-word;
+        }
+        
+        .hyaluronic-acid {
+          width: 142px;
+          left: 472px;
+          top: 4709px;
+          position: absolute;
+        }
+        
+        .thisgentlehydratorattractsandretainsmoisturecalmingtheskinaftertheuseofpotentactives_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .this-gentle-hydrator-attracts-and-retains-moisture-calming-the-skin-after-the-use-of-potent-actives {
+          width: 250px;
+          left: 472px;
+          top: 4741px;
+          position: absolute;
+        }
+        
+        .antibiotics_span {
+          color: black;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 24px;
+          word-wrap: break-word;
+        }
+        
+        .antibiotics {
+          width: 99px;
+          left: 796px;
+          top: 4709px;
+          position: absolute;
+        }
+        
+        .thesecutstraighttothesourcecontrollingandsubduingacne-causingbacteriaantibioticsalsohelphealinflamedacne_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .these-cut-straight-to-the-source-controlling-and-subduing-acne-causing-bacteria-antibiotics-also-help-heal-inflamed-acne {
+          width: 251px;
+          left: 796px;
+          top: 4741px;
+          position: absolute;
+        }
+        
+        .readouringredientsbible_span {
+          color: black;
+          font-size: 16px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 19.20px;
+          word-wrap: break-word;
+        }
+        
+        .read-our-ingredients-bible {
+          width: 187px;
+          left: 506px;
+          top: 4937px;
+          position: absolute;
+        }
+        
+        .patientsloveus_span {
+          color: black;
+          font-size: 45px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 57.60px;
+          word-wrap: break-word;
+        }
+        
+        .patients-love-us {
+          width: 317px;
+          left: 442px;
+          top: 5099px;
+          position: absolute;
+          text-align: center;
+        }
+        
+        .sooosatisfyingtouse_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .sooo-satisfying-to-use {
+          width: 181px;
+          left: 39px;
+          top: 5355px;
+          position: absolute;
+        }
+        
+        .by_span {
+          color: #737373;
+          font-size: 14px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .by {
+          width: 15px;
+          left: 126px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .caitlynobrien_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .caitlyn-obrien {
+          width: 89px;
+          left: 143px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .on_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .on {
+          width: 15px;
+          left: 234px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .f182022_span {
+          color: #737373;
+          font-size: 12px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .text-1182022 {
+          width: 61px;
+          left: 251px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .itriedsoftwarespimplepatchesanditwassooosatisfyingtouseitzappedmypimplesandsurprisinglystuckonthewholenightthroughiuseditonapimpleonmyupperlipanditstayedonevenwheniwasbrushingmyteethmostpimplepatchesivetriedinthepastfalloffprettyeasily_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .i-tried-softwares-pimple-patches-and-it-was-sooo-satisfying-to-use-it-zapped-my-pimples-and-surprisingly-stuck-on-the-whole-night-through-i-used-it-on-a-pimple-on-my-upper-lip-and-it-stayed-on-even-when-i-was-brushing-my-teeth-most-pimple-patches-ive-tried-in-the-past-fall-off-pretty-easily {
+          width: 320px;
+          left: 39px;
+          top: 5417px;
+          position: absolute;
+        }
+        
+        .thankyouforhelpingaworryingmum_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .thank-you-for-helping-a-worrying-mum {
+          width: 311px;
+          left: 405px;
+          top: 5355px;
+          position: absolute;
+        }
+        
+        .by_01_span {
+          color: #737373;
+          font-size: 14px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .by_01 {
+          width: 15px;
+          left: 492px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .diane_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .diane {
+          width: 35px;
+          left: 509px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .on_01_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .on_01 {
+          width: 15px;
+          left: 546px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .f482021_span {
+          color: #737373;
+          font-size: 12px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .text-1482021 {
+          width: 61px;
+          left: 563px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .quitesimplythepromptrepliesandactiontogiveusaplantofeellikesomeoneheardusandarewillingtohelpushasbeensoamazingandcomfortingthecommunicationisfastandwereceivedourcreamsandplanwithinaweekcantwaittoseetheresultsicantsayhowmuchthesupporthelpedaworriedmumthankyou_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .quite-simply-the-prompt-replies-and-action-to-give-us-a-plan-to-feel-like-someone-heard-us-and-are-willing-to-help-us-has-been-so-amazing-and-comforting-the-communication-is-fast-and-we-received-our-creams-and-plan-within-a-week-cant-wait-to-see-the-results-i-cant-say-how-much-the-support-helped-a-worried-mum-thank-you {
+          width: 317px;
+          left: 405px;
+          top: 5417px;
+          position: absolute;
+        }
+        
+        .bestandmostfunctionskincareiveeverseenused_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .best-and-most-function-skincare-ive-ever-seenused {
+          width: 297px;
+          left: 771px;
+          top: 5356px;
+          position: absolute;
+        }
+        
+        .by_02_span {
+          color: #737373;
+          font-size: 14px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .by_02 {
+          width: 15px;
+          left: 858px;
+          top: 5405px;
+          position: absolute;
+        }
+        
+        .kayleighmc_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .kayleigh-mc {
+          width: 74px;
+          left: 875px;
+          top: 5405px;
+          position: absolute;
+        }
+        
+        .on_02_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .on_02 {
+          width: 15px;
+          left: 951px;
+          top: 5405px;
+          position: absolute;
+        }
+        
+        .f382021_span {
+          color: #737373;
+          font-size: 12px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .text-1382021 {
+          width: 61px;
+          left: 968px;
+          top: 5405px;
+          position: absolute;
+        }
+        
+        .theproductsreallyaremadecustomtoeachindividualmyaggressiveskinwastransformedwithinmonthsthequalityandconvenienceisexceptionalthewebsiteissoeasytonavigateandalteryoursubscriptionrefillwhenneededthedoctorsrespondwithinminutes-acouplehoursihavenowordsotherthanhowamazingthiscompanysproductsandteamare_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .the-products-really-are-made-custom-to-each-individual-my-aggressive-skin-was-transformed-within-months-the-quality-and-convenience-is-exceptional-the-website-is-so-easy-to-navigate-and-alter-your-subscription-refill-when-needed-the-doctors-respond-within-minutes-a-couple-hours-i-have-no-words-other-than-how-amazing-this-companys-products-and-team-are {
+          width: 320px;
+          left: 771px;
+          top: 5438px;
+          position: absolute;
+        }
+        
+        .lifechangingformyconfidence_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .life-changing-for-my-confidence {
+          width: 266px;
+          left: 1137px;
+          top: 5355px;
+          position: absolute;
+        }
+        
+        .by_03_span {
+          color: #737373;
+          font-size: 14px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .by_03 {
+          width: 15px;
+          left: 1224px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .michelles_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .michelle-s {
+          width: 63px;
+          left: 1241px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .on_03_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .on_03 {
+          width: 15px;
+          left: 1306px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .f572021_span {
+          color: #737373;
+          font-size: 12px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .text-1572021 {
+          width: 59px;
+          left: 1323px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .iamaproductjunkiealwaysafterthelatestandgreatestihaveneverhadresultswithanythinginthelast30yearsoftreatingmyacnescarsandostrecentlywrinklesidecidedtousemytimeinlockdowntocreatethetransformationasihadreadabouttheuglyphaseinthefirstcoupleofweeksicannotwaituntilthelockdownliftssothaticanshowmynewsmoothclearfaceandupliftedconfidencetotheworldthecustomerserviceistopnotchandtheyreplytomyemailsveryquicklyiamhappyandverysatisfiedwiththepriceandproducts_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .i-am-a-product-junkie-always-after-the-latest-and-greatest-i-have-never-had-results-with-anything-in-the-last-30-years-of-treating-my-acnescars-andost-recently-wrinkles-i-decided-to-use-my-time-in-lockdown-to-create-the-transformation-as-i-had-read-about-the-ugly-phase-in-the-first-couple-of-weeks-i-cannot-wait-until-the-lockdown-lifts-so-that-i-can-show-my-new-smooth-clear-face-and-uplifted-confidence-to-the-world-the-customer-service-is-top-notch-and-they-reply-to-my-emails-very-quickly-i-am-happy-and-very-satisfied-with-the-price-and-products {
+          width: 320px;
+          left: 1137px;
+          top: 5417px;
+          position: absolute;
+        }
+        
+        .thisbrandchangedmylife_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .this-brand-changed-my-life {
+          width: 219px;
+          left: 1503px;
+          top: 5355px;
+          position: absolute;
+        }
+        
+        .by_04_span {
+          color: #737373;
+          font-size: 14px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .by_04 {
+          width: 15px;
+          left: 1590px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .lil_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .lil {
+          width: 14px;
+          left: 1607px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .on_04_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .on_04 {
+          width: 15px;
+          left: 1623px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .f72021_span {
+          color: #737373;
+          font-size: 12px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .text-272021 {
+          width: 54px;
+          left: 1640px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .ihavebeenusingsoftwareskinsincenovember2020andhavefoundasignificanceimprovementintheoilinessofmyskinandmyacneisufferwithpcoswhichcauseshormonalacneinmymid20sandnothingseemedtohelpwhenisawsoftwareskinithoughtitwouldbeworthittogiveitashotbyfebruary2021ifeltlikeacompletenewpersonhyperpigmentationihadforyearsstartingtovanishandmycongestedacneonmyjawlinewasbasicallynoneexistentsoftwareskinis150worththetry_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .i-have-been-using-software-skin-since-november-2020-and-have-found-a-significance-improvement-in-the-oiliness-of-my-skin-and-my-acne-i-suffer-with-pcos-which-causes-hormonal-acne-in-my-mid-20s-and-nothing-seemed-to-help-when-i-saw-software-skin-i-thought-it-would-be-worth-it-to-give-it-a-shot-by-february-2021-i-felt-like-a-complete-new-person-hyper-pigmentation-i-had-for-years-starting-to-vanish-and-my-congested-acne-on-my-jawline-was-basically-none-existent-software-skin-is-150-worth-the-try {
+          width: 319px;
+          left: 1503px;
+          top: 5417px;
+          position: absolute;
+        }
+        
+        .suchquickresultsskinlooksandfeelsgreat_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .such-quick-results-skin-looks-and-feels-great {
+          width: 278px;
+          left: 1869px;
+          top: 5356px;
+          position: absolute;
+        }
+        
+        .by_05_span {
+          color: #737373;
+          font-size: 14px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .by_05 {
+          width: 15px;
+          left: 1956px;
+          top: 5405px;
+          position: absolute;
+        }
+        
+        .amyt_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .amy-t {
+          width: 38px;
+          left: 1973px;
+          top: 5405px;
+          position: absolute;
+        }
+        
+        .on_05_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .on_05 {
+          width: 15px;
+          left: 2013px;
+          top: 5405px;
+          position: absolute;
+        }
+        
+        .f262021_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .text-2262021 {
+          width: 64px;
+          left: 2030px;
+          top: 5405px;
+          position: absolute;
+        }
+        
+        .veryquickinmatchingmeadoctorandsendingoutthecorrectformulaformyskinwithinliterally2applicationsicouldnoticethedifferencenowafter3weeksmyskinisveryevenihadenlargedporesandbumpyskinandhasarealglowhaventbeenwearingfoundationforthelastweeksuchgreatresultswillbeusingthisalways_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .very-quick-in-matching-me-a-doctor-and-sending-out-the-correct-formula-for-my-skin-within-literally-2-applications-i-could-notice-the-difference-now-after-3-weeks-my-skin-is-very-even-i-had-enlarged-pores-and-bumpy-skin-and-has-a-real-glow-havent-been-wearing-foundation-for-the-last-week-such-great-results-will-be-using-this-always {
+          width: 314px;
+          left: 1869px;
+          top: 5438px;
+          position: absolute;
+        }
+        
+        .skepticsrejoice_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .skeptics-rejoice {
+          width: 131px;
+          left: 2235px;
+          top: 5355px;
+          position: absolute;
+        }
+        
+        .by_06_span {
+          color: #737373;
+          font-size: 14px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .by_06 {
+          width: 15px;
+          left: 2322px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .claireelise_span {
+          color: #737373;
+          font-size: 14px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .claireelise {
+          width: 66px;
+          left: 2339px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .on_06_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .on_06 {
+          width: 15px;
+          left: 2407px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .f22021_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .text-922021 {
+          width: 56px;
+          left: 2424px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .iwassuchaskepticihavethemostreactiveandsensitiveskinandiwasconvincedthatthiswasgoingtobeyetanotherproductispendheapsofmoneyonandchuckoutafter3usesiabsolutelyflaredupinitiallybutwithin2moreusesmyskinwasnicerthanithaseverbeensmoothercomplexionnolittlebumpsorsoreslikeusualamazing_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .i-was-such-a-skeptic-i-have-the-most-reactive-and-sensitive-skin-and-i-was-convinced-that-this-was-going-to-be-yet-another-product-i-spend-heaps-of-money-on-and-chuck-out-after-3-uses-i-absolutely-flared-up-initially-but-within-2-more-uses-my-skin-was-nicer-than-it-has-ever-been-smoother-complexion-no-little-bumps-or-sores-like-usual-amazing {
+          width: 320px;
+          left: 2235px;
+          top: 5417px;
+          position: absolute;
+        }
+        
+        .excellentskincare_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .excellent-skincare {
+          width: 148px;
+          left: 2601px;
+          top: 5355px;
+          position: absolute;
+        }
+        
+        .by_07_span {
+          color: #737373;
+          font-size: 14px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .by_07 {
+          width: 15px;
+          left: 2688px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .gabim_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .gabi-m {
+          width: 43px;
+          left: 2705px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .on_07_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .on_07 {
+          width: 15px;
+          left: 2750px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .f22021_span_01 {
+          color: #737373;
+          font-size: 12px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .text-722021 {
+          width: 54px;
+          left: 2767px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .theprocessofobtainingthecreamwasontimeandnohasslestheykeepyouupdatedwithsupporttheactualcreamwaswonderfulisawresultsafterafewdaystherewasalittlestinginginthebeginningbutthatmeantitwasworkingthestingingstoppedafter3daysandtheeffectsaregreatnobreakoutsskinnotoilyasitwasbeforepeopleafterjustafewdaysmentionedhowgoodmyskinlooksidonotwearanyfoundationorpowdernowjustbareskinwithsomeblushersomeeyemakeupandsomelipsticktheskintoneisevensononeedtocoveritupanditdoesntlooklikeanoilslickattheendofthedayasbeforegreatworkskinsoftwareiwasrecommendedbyafriendwholovesittooiwillonlyuseyourskincarefromnowongabi_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .the-process-of-obtaining-the-cream-was-on-time-and-no-hassles-they-keep-you-updated-with-support-the-actual-cream-was-wonderful-i-saw-results-after-a-few-days-there-was-a-little-stinging-in-the-beginning-but-that-meant-it-was-working-the-stinging-stopped-after-3-days-and-the-effects-are-great-no-breakouts-skin-not-oily-as-it-was-before-people-after-just-a-few-days-mentioned-how-good-my-skin-looks-i-do-not-wear-any-foundation-or-powder-now-just-bare-skin-with-some-blusher-some-eye-makeup-and-some-lipstick-the-skin-tone-is-even-so-no-need-to-cover-it-up-and-it-doesnt-look-like-an-oil-slick-at-the-end-of-the-day-as-before-great-work-skin-software-i-was-recommended-by-a-friend-who-loves-it-too-i-will-only-use-your-skincare-from-now-on-gabi {
+          width: 320px;
+          left: 2601px;
+          top: 5417px;
+          position: absolute;
+        }
+        
+        .thrilledwithresults_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .thrilled-with-results {
+          width: 158px;
+          left: 2967px;
+          top: 5355px;
+          position: absolute;
+        }
+        
+        .by_08_span {
+          color: #737373;
+          font-size: 14px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .by_08 {
+          width: 15px;
+          left: 3054px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .hannah_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .hannah {
+          width: 45px;
+          left: 3071px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .on_08_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .on_08 {
+          width: 15px;
+          left: 3118px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .f9122020_span {
+          color: #737373;
+          font-size: 13px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 16.80px;
+          word-wrap: break-word;
+        }
+        
+        .text-29122020 {
+          width: 73px;
+          left: 3135px;
+          top: 5384px;
+          position: absolute;
+        }
+        
+        .afterafewyearsofsufferingfromhormonaladultacneandtryingjustabouteveryproductavailablethiscreamhassavedmyskinihaventnoticedanystrangesmellandthetextureisgreatmyskinisalreadyclearingaftertwoweekswithnopurgejustsomelightdryness_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .after-a-few-years-of-suffering-from-hormonal-adult-acne-and-trying-just-about-every-product-available-this-cream-has-saved-my-skin-i-havent-noticed-any-strange-smell-and-the-texture-is-great-my-skin-is-already-clearing-after-two-weeks-with-no-purge-just-some-light-dryness {
+          width: 318px;
+          left: 2967px;
+          top: 5417px;
+          position: absolute;
+        }
+        
+        .faqs_span {
+          color: black;
+          font-size: 48px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 57.60px;
+          word-wrap: break-word;
+        }
+        
+        .faqs {
+          width: 114px;
+          left: 121px;
+          top: 5987px;
+          position: absolute;
+        }
+        
+        .whatisincludedintheconsultation_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .what-is-included-in-the-consultation {
+          width: 297px;
+          left: 146px;
+          top: 6117px;
+          position: absolute;
+        }
+        
+        .howmuchdoesitcost_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .how-much-does-it-cost {
+          width: 195px;
+          left: 146px;
+          top: 6211px;
+          position: absolute;
+        }
+        
+        .whatmakessoftwarepersonalised_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .what-makes-software-personalised {
+          width: 314px;
+          left: 146px;
+          top: 6305px;
+          position: absolute;
+        }
+        
+        .caniuseotherskincareproductswithmysoftwaretreatment_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .can-i-use-other-skincare-products-with-my-software-treatment {
+          width: 517px;
+          left: 146px;
+          top: 6399px;
+          position: absolute;
+        }
+        
+        .meetourskinexperts_span {
+          color: black;
+          font-size: 45px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 57.60px;
+          word-wrap: break-word;
+        }
+        
+        .meet-our-skin-experts {
+          width: 439px;
+          left: 112px;
+          top: 6642px;
+          position: absolute;
+        }
+        
+        .getassignedyourowngp_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .get-assigned-your-own-gp {
+          width: 208px;
+          left: 152px;
+          top: 6747px;
+          position: absolute;
+        }
+        
+        .ourteamofdoctorsanalyseyourskinandprescribeatreatmentjustforyou_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .our-team-of-doctors-analyse-your-skin-and-prescribe-a-treatment-just-for-you {
+          width: 417px;
+          left: 152px;
+          top: 6803px;
+          position: absolute;
+        }
+        
+        .trackyourskinprogresswithregularcheck-ins_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .track-your-skin-progress-with-regular-check-ins {
+          width: 368px;
+          left: 152px;
+          top: 6875px;
+          position: absolute;
+        }
+        
+        .drhopedinh_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .dr-hope-dinh {
+          width: 113px;
+          left: 617px;
+          top: 6856px;
+          position: absolute;
+        }
+        
+        .consultantdermatologistmbbsfacd_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .consultant-dermatologist-mbbs-facd {
+          width: 201px;
+          left: 617px;
+          top: 6886px;
+          position: absolute;
+        }
+        
+        .drmattvickers_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .dr-matt-vickers {
+          width: 129px;
+          left: 987px;
+          top: 6856px;
+          position: absolute;
+        }
+        
+        .generalpractitioner_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .general-practitioner {
+          width: 155px;
+          left: 987px;
+          top: 6885px;
+          position: absolute;
+        }
+        
+        .niamhmooney_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .niamh-mooney {
+          width: 123px;
+          left: 1357px;
+          top: 6856px;
+          position: absolute;
+        }
+        
+        .softwarefounder_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .software-founder {
+          width: 138px;
+          left: 1357px;
+          top: 6885px;
+          position: absolute;
+        }
+        
+        .drryandecruz_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .dr-ryan-de-cruz {
+          width: 138px;
+          left: 1727px;
+          top: 6856px;
+          position: absolute;
+        }
+        
+        .consultantdermatologistmbbsfacd_01_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .consultant-dermatologist-mbbs-facd_01 {
+          width: 201px;
+          left: 1727px;
+          top: 6886px;
+          position: absolute;
+        }
+        
+        .howsoftwareworks_span {
+          color: black;
+          font-size: 45px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 57.60px;
+          word-wrap: break-word;
+        }
+        
+        .how-software-works {
+          width: 420px;
+          left: 390px;
+          top: 7097px;
+          position: absolute;
+          text-align: center;
+        }
+        
+        .step1_span {
+          color: black;
+          font-size: 16px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .step-1 {
+          width: 46px;
+          left: 237px;
+          top: 7431px;
+          position: absolute;
+        }
+        
+        .startyourdoctorconsult_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .start-your-doctor-consult {
+          width: 207px;
+          left: 121px;
+          top: 7485px;
+          position: absolute;
+        }
+        
+        .taketheskinquiztoshareyourskinhistoryconcernsandgoalsbeforespeakingtoyourdoctor_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .take-the-skin-quiz-to-share-your-skin-history-concerns-and-goals-before-speaking-to-your-doctor {
+          width: 248px;
+          left: 121px;
+          top: 7515px;
+          position: absolute;
+        }
+        
+        .step2_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .step-2 {
+          width: 50px;
+          left: 575px;
+          top: 7431px;
+          position: absolute;
+        }
+        
+        .useyourpersonalisedformula_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .use-your-personalised-formula {
+          width: 250px;
+          left: 462px;
+          top: 7485px;
+          position: absolute;
+        }
+        
+        .yourtreatmentwillbedeliveredeverytwomonths_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .your-treatment-will-be-delivered-every-two-months {
+          width: 243px;
+          left: 462px;
+          top: 7515px;
+          position: absolute;
+        }
+        
+        .step3_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .step-3 {
+          width: 51px;
+          left: 915px;
+          top: 7431px;
+          position: absolute;
+        }
+        
+        .getongoingsupport_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .get-ongoing-support {
+          width: 169px;
+          left: 802px;
+          top: 7485px;
+          position: absolute;
+        }
+        
+        .ourmedicalteamcanreformulateyourtreatmentasyouprogressandansweryourquestionswhenever_span {
+          color: black;
+          font-size: 17px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .our-medical-team-can-reformulate-your-treatment-as-you-progress-and-answer-your-questions-whenever {
+          width: 275px;
+          left: 802px;
+          top: 7515px;
+          position: absolute;
+        }
+        
+        .letsgetstarted_span {
+          color: black;
+          font-size: 45px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 57.60px;
+          word-wrap: break-word;
+        }
+        
+        .lets-get-started {
+          width: 327px;
+          left: 437px;
+          top: 7706px;
+          position: absolute;
+          text-align: center;
+        }
+        
+        .takethequiz_span {
+          color: white;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .take-the-quiz {
+          width: 106px;
+          left: 547px;
+          top: 7799px;
+          position: absolute;
+          text-align: center;
+        }
+        
+        .ageing_02_span {
+          color: white;
+          font-size: 19px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .ageing_02 {
+          width: 62px;
+          left: 511px;
+          top: 8297px;
+          position: absolute;
+        }
+        
+        .acne_05_span {
+          color: white;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .acne_05 {
+          width: 46px;
+          left: 511px;
+          top: 8341px;
+          position: absolute;
+        }
+        
+        .pigmentation_06_span {
+          color: white;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .pigmentation_06 {
+          width: 121px;
+          left: 511px;
+          top: 8385px;
+          position: absolute;
+        }
+        
+        .hairloss_span_01 {
+          color: white;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .hair-loss_01 {
+          width: 85px;
+          left: 511px;
+          top: 8429px;
+          position: absolute;
+        }
+        
+        .softwareessentials_01_span {
+          color: white;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .software-essentials_01 {
+          width: 180px;
+          left: 511px;
+          top: 8473px;
+          position: absolute;
+        }
+        
+        .advancedageingset_span {
+          color: white;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .advanced-ageing-set {
+          width: 191px;
+          left: 511px;
+          top: 8517px;
+          position: absolute;
+        }
+        
+        .acnekit_span {
+          color: white;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .acne-kit {
+          width: 76px;
+          left: 511px;
+          top: 8561px;
+          position: absolute;
+        }
+        
+        .ingredients_span {
+          color: white;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .ingredients {
+          width: 102px;
+          left: 900px;
+          top: 8297px;
+          position: absolute;
+        }
+        
+        .skinjournal_span {
+          color: white;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .skin-journal {
+          width: 113px;
+          left: 900px;
+          top: 8341px;
+          position: absolute;
+        }
+        
+        .supportcentre_span {
+          color: white;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .support-centre {
+          width: 140px;
+          left: 900px;
+          top: 8385px;
+          position: absolute;
+        }
+        
+        .contactus_span {
+          color: white;
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .contact-us {
+          width: 101px;
+          left: 900px;
+          top: 8429px;
+          position: absolute;
+        }
+        
+        .login_01_span {
+          color: black;
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 21.60px;
+          word-wrap: break-word;
+        }
+        
+        .log-in_01 {
+          width: 49px;
+          left: 969px;
+          top: 8511px;
+          position: absolute;
+        }
+        
+        .privacypolicy_span {
+          color: rgba(255, 255, 255, 0.70);
+          font-size: 11px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .privacy-policy {
+          width: 70px;
+          left: 403px;
+          top: 8798px;
+          position: absolute;
+        }
+        
+        .fspan {
+          color: rgba(255, 255, 255, 0.70);
+          font-size: 12px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .text- {
+          width: 3px;
+          left: 481px;
+          top: 8798px;
+          position: absolute;
+        }
+        
+        .termsconditions_span {
+          color: rgba(255, 255, 255, 0.70);
+          font-size: 11px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .terms-conditions {
+          width: 101px;
+          left: 492px;
+          top: 8798px;
+          position: absolute;
+        }
+        
+        .f01_span {
+          color: rgba(255, 255, 255, 0.70);
+          font-size: 12px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .text-_01 {
+          width: 3px;
+          left: 601px;
+          top: 8798px;
+          position: absolute;
+        }
+        
+        .fulfilmentshippingreturnspolicy_span {
+          color: rgba(255, 255, 255, 0.70);
+          font-size: 11px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+        
+        .fulfilment-shipping-returns-policy {
+          width: 185px;
+          left: 612px;
+          top: 8798px;
+          position: absolute;
+        }
+        
+        .image_09 {
+          width: 29px;
+          height: 30px;
+          left: 501px;
+          top: 1482px;
+          position: absolute;
+          overflow: hidden;
+        }
+        
+        .image_11 {
+          width: 13px;
+          height: 13px;
+          left: 246px;
+          top: 2342px;
+          position: absolute;
+          overflow: hidden;
+        }
+        
+        .image_24 {
+          width: 36px;
+          height: 36px;
+          left: 1162px;
+          top: 2088px;
+          position: absolute;
+          background: black;
+          overflow: hidden;
+          border-radius: 505px;
+        }
+        
+        .image_52 {
+          width: 24px;
+          height: 24px;
+          left: 112px;
+          top: 6748px;
+          position: absolute;
+          overflow: hidden;
+        }
+        
+        .image_53 {
+          width: 24px;
+          height: 24px;
+          left: 112px;
+          top: 6804px;
+          position: absolute;
+          overflow: hidden;
+        }
+        
+        .image_54 {
+          width: 24px;
+          height: 24px;
+          left: 112px;
+          top: 6876px;
+          position: absolute;
+          overflow: hidden;
+        }
+        
+        .image_61 {
+          width: 32px;
+          height: 33px;
+          left: 112px;
+          top: 8381px;
+          position: absolute;
+          overflow: hidden;
+        }
+        
+        .frame {
+          width: 1200px;
+          height: 8842px;
+          position: relative;
+          background: white;
+          overflow: hidden;
+        }
+        </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="rectangle"></div>
+        <div class="rectangle_01"></div>
+        <div class="rectangle_02"></div>
+        <div class="rectangle_03"></div>
+        <div class="rectangle_04"></div>
+        <img class="image" src="first.png" alt="1" />
+        <div class="rectangle_05"></div>
+        <div class="rectangle_06"></div>
+        <div class="rectangle_07"></div>
+        <img class="image_01" src="3.png" alt="2" />
+        <img class="image_02" src="6.png" alt="3"/>
+        <img class="image_03" src="7.png" alt="4" />
+        <img class="image_04" src="8.png" alt="5" />
+        <img class="image_05" src="9.png" alt="6"/>
+        <div class="rectangle_08"></div>
+        <div class="rectangle_09"></div>
+        <div class="rectangle_10"></div>
+        <img class="image_06" src="https://cdn.prod.website-files.com/5f1797b724a35d807050c3d9/649a3ced261a31127892104b_azelaic-acid.gif" alt="7"/>
+        <img class="image_07" src="https://cdn.prod.website-files.com/5f1797b724a35d807050c3d9/649a3d8dc3f3d178e75f1250_retinol-ingredient.gif" alt="8"/>
+        <img class="image_08" src="https://cdn.prod.website-files.com/5f1797b724a35d807050c3d9/6499143337558efafbe17854_ezgif.com-gif-maker%20(1).webp" alt="9" />
+        <div class="rectangle_11"></div>
+        <div class="rectangle_12"></div>
+        <img class="image_09" src="10.png" alt="10"/>
+        <div class="rectangle_13"></div>
+        <div class="rectangle_14"></div>
+        <div class="rectangle_15"></div>
+        <div class="rectangle_16"></div>
+        <div class="rectangle_17"></div>
+        <div class="rectangle_18"></div>
+        <div class="rectangle_19"></div>
+        <img class="image_10" src="11.png" alt="11"/>
+        <div class="rectangle_20"></div>
+        <img class="image_11" src="54.png" alt="12"/>
+        <div class="rectangle_21"></div>
+        <img class="image_12" src="16.png" alt="13"/>
+        <img class="image_13" src="12.png" alt="14"/>
+        <div class="rectangle_22"></div>
+        <div class="rectangle_23"></div>
+        <img class="image_14" src="17.png" alt="15"/>
+        <img class="image_15" src="13.png" alt="16"/>
+        <div class="rectangle_24"></div>
+        <div class="rectangle_25"></div>
+        <img class="image_16" src="18.png" alt="17"/>
+        <img class="image_17" src="14.png" alt="18"/>
+        <div class="rectangle_26"></div>
+        <div class="rectangle_27"></div>
+        <img class="image_18" src="19.png" alt="19"/>
+        <img class="image_19" src="20.png" alt="20"/>
+        <div class="rectangle_28"></div>
+        <div class="rectangle_29"></div>
+        <img class="image_20" src="21.png" alt="21"/>
+        <img class="image_21" src="22.png" alt="22"/>
+        <div class="rectangle_30"></div>
+        <div class="rectangle_31"></div>
+        <img class="image_22" src="23.png" alt="23"/>
+        <img class="image_23" src="24.png" alt="24"/>
+        <div class="rectangle_32"></div>
+        <img class="image_24" src="15.png" alt="25"/>
+        <div class="rectangle_33"></div>
+        <div class="rectangle_34"></div>
+        <div class="rectangle_35"></div>
+        <div class="rectangle_36"></div>
+        <div class="rectangle_37"></div>
+        <div class="rectangle_38"></div>
+        <div class="rectangle_39"></div>
+        <div class="rectangle_40"></div>
+        <div class="rectangle_41"></div>
+        <img class="image_25" src="25.png" alt="26"/>
+        <img class="image_26" src="26.png" alt="27" />
+        <div class="rectangle_42"></div>
+        <div class="rectangle_43"></div>
+        <div class="rectangle_44"></div>
+        <img class="image_27" src="27.png" alt="28"/>
+        <img class="image_28" src="28.png" alt="29"/>
+        <div class="rectangle_45"></div>
+        <div class="rectangle_46"></div>
+        <div class="rectangle_47"></div>
+        <img class="image_29" src="29.png" alt="30"/>
+        <img class="image_30" src="30.png" alt="31"/>
+        <div class="rectangle_48"></div>
+        <div class="rectangle_49"></div>
+        <div class="rectangle_50"></div>
+        <img class="image_31" src="31.png" alt="32" />
+        <img class="image_32" src="32.png" alt="33"/>
+        <div class="rectangle_51"></div>
+        <div class="rectangle_52"></div>
+        <div class="rectangle_53"></div>
+        <img class="image_33" src="33.png" alt="34" />
+        <img class="image_34" src="34.png" alt="35"/>
+        <div class="rectangle_54"></div>
+        <div class="rectangle_55"></div>
+        <div class="rectangle_56"></div>
+        <img class="image_35" src="35.png" alt="36"/>
+        <img class="image_36" src="36.png" alt="37"/>
+        <div class="rectangle_57"></div>
+        <div class="rectangle_58"></div>
+        <div class="rectangle_59"></div>
+        <div class="rectangle_60"></div>
+        <div class="rectangle_61"></div>
+        <img class="image_37" src="37.png" alt="38"/>
+        <div class="rectangle_62"></div>
+        <div class="rectangle_63"></div>
+        <div class="rectangle_64"></div>
+        <div class="rectangle_65"></div>
+        <div class="rectangle_66"></div>
+        <img class="image_38" src="38.png" alt="39" />
+        <div class="rectangle_67"></div>
+        <div class="rectangle_68"></div>
+        <div class="rectangle_69"></div>
+        <div class="rectangle_70"></div>
+        <div class="rectangle_71"></div>
+        <img class="image_39" src="39.png" alt="40"/>
+        <div class="rectangle_72"></div>
+        <div class="rectangle_73"></div>
+        <div class="rectangle_74"></div>
+        <div class="rectangle_75"></div>
+        <div class="rectangle_76"></div>
+        <img class="image_40" src="40.png" alt="41"/>
+        <div class="rectangle_77"></div>
+        <div class="rectangle_78"></div>
+        <div class="rectangle_79"></div>
+        <div class="rectangle_80"></div>
+        <div class="rectangle_81"></div>
+        <img class="image_41" src="41.png" alt="42"/>
+        <div class="rectangle_82"></div>
+        <div class="rectangle_83"></div>
+        <div class="rectangle_84"></div>
+        <div class="rectangle_85"></div>
+        <div class="rectangle_86"></div>
+        <div class="rectangle_87"></div>
+        <div class="rectangle_88"></div>
+        <img class="image_42" src="42.png" alt="43"/>
+        <div class="rectangle_89"></div>
+        <img class="image_43" src="43.png" alt="44"/>
+        <div class="rectangle_90"></div>
+        <img class="image_44" src="43.png" alt="45"/>
+        <div class="rectangle_91"></div>
+        <img class="image_45" src="43.png" alt="46"/>
+        <div class="rectangle_92"></div>
+        <img class="image_46" src="43.png" alt="47"/>
+        <div class="rectangle_93"></div>
+        <img class="image_47" src="43.png" alt="48"/>
+        <div class="rectangle_94"></div>
+        <img class="image_48" src="43.png" alt="49"/>
+        <div class="rectangle_95"></div>
+        <img class="image_49" src="43.png" alt="50"/>
+        <div class="rectangle_96"></div>
+        <img class="image_50" src="43.png" alt="51"/>
+        <div class="rectangle_97"></div>
+        <img class="image_51" src="43.png" alt="52"/>
+        <div class="rectangle_98"></div>
+        <div class="rectangle_99"></div>
+        <div class="rectangle_100"></div>
+        <div class="rectangle_101"></div>
+        <div class="rectangle_102"></div>
+        <div class="rectangle_103"></div>
+        <div class="rectangle_104"></div>
+        <div class="rectangle_105"></div>
+        <img class="image_52" src="53.png" alt="53"/>
+        <img class="image_53" src="53.png" alt="54"/>
+        <img class="image_54" src="53.png" alt="55"/>
+        <div class="rectangle_106"></div>
+        <div class="rectangle_107"></div>
+        <img class="image_55" src="44.png" alt="56"/>
+        <div class="rectangle_108"></div>
+        <img class="image_56" src="45.png" alt="57"/>
+        <div class="rectangle_109"></div>
+        <img class="image_57" src="46.png" alt="58"/>
+        <div class="rectangle_110"></div>
+        <div class="rectangle_111"></div>
+        <div class="rectangle_112"></div>
+        <div class="rectangle_113"></div>
+        <img class="image_58" src="47.png" alt="59"/>
+        <div class="rectangle_114"></div>
+        <img class="image_59" src="48.png" alt="60"/>
+        <div class="rectangle_115"></div>
+        <img class="image_60" src="49.png" alt="61"/>
+        <div class="rectangle_116"></div>
+        <div class="rectangle_117"></div>
+        <div class="rectangle_118"></div>
+        <div class="rectangle_119"></div>
+        <div class="rectangle_120"></div>
+        <img class="image_61" src="52.png" alt="62"/>
+        <img class="image_62" src="50.png" alt="63"/>
+        <div class="rectangle_121"></div>
+        <img class="image_63" src="51.png" alt="64"/>
+        <div class="rectangle_122"></div>
+        <div class="acne"><span class="acne_span">Acne</span></div>
+        <div class="ageing"><span class="ageing_span">Ageing</span></div>
+        <div class="pigmentation"><span class="pigmentation_span">Pigmentation</span></div>
+        <div class="everyday-care"><span class="everydaycare_span">Everyday care</span></div>
+        <div class="hair-loss"><span class="hairloss_span">Hair loss</span></div>
+        <div class="learn"><span class="learn_span">Learn</span></div>
+        <div class="text-0"><span class="f_span">0</span></div>
+        <div class="log-in"><span class="login_span">Log in</span></div>
+        <div class="where-science-meets-skincare"><span class="wheresciencemeetsskincare_span">Where science meets skincare.</span></div>
+        <div class="create-my-formula"><span class="createmyformula_span">Create my formula</span></div>
+        <div class="one-formula-to-rule-them-all"><span class="oneformulatorulethemall_span">One formula to rule them all.</span></div>
+        <div class="work-together-with-your-doctor-to-create-a-custom-formula-for-your-skin-concerns-and-well-make-sure-your-treatment-evolves-as-you-do"><span class="worktogetherwithyourdoctortocreateacustomformulaforyourskinconcernsandwellmakesureyourtreatmentevolvesasyoudo_span">Work together with your doctor to create a custom formula for your skin concerns, and we’ll make sure your treatment evolves as you do.</span></div>
+        <div class="create-my-formula_01"><span class="createmyformula_01_span">Create my formula</span></div>
+        <div class="get-to-your-goals-faster"><span class="gettoyourgoalsfaster_span">Get to your goals, faster.</span></div>
+        <div class="id-like-to-browse-for"><span class="idliketobrowsefor_span">I’d like to browse for</span></div>
+        <div class="acne_01"><span class="acne_01_span">Acne</span></div>
+        <div class="ageing_01"><span class="ageing_01_span">Ageing</span></div>
+        <div class="pigmentation_01"><span class="pigmentation_01_span">Pigmentation</span></div>
+        <div class="everyday-care_01"><span class="everydaycare_01_span">Everyday care</span></div>
+        <div class="your-custom-prescription-formula"><span class="yourcustomprescriptionformula_span">Your custom prescription formula</span></div>
+        <div class="text-88-every-8-weeks"><span class="f8every8weeks_span">$88 every 8 weeks</span></div>
+        <div class="create-my-formula_02"><span class="createmyformula_02_span">Create my formula</span></div>
+        <div class="the-acne-kit"><span class="theacnekit_span">The Acne Kit</span></div>
+        <div class="meet-the-complete-acne-fighting-kit-designed-to-target-acne-at-all-stages"><span class="meetthecompleteacne-fightingkitdesignedtotargetacneatallstages_span">Meet the complete acne-fighting kit designed to target acne at all stages.</span></div>
+        <div class="add-to-cart"><span class="addtocart_span">Add to cart</span></div>
+        <div class="text-140"><span class="f40_span">$140</span></div>
+        <div class="acne-supplement"><span class="acnesupplement_span">Acne Supplement</span></div>
+        <div class="dermatologist-designed-daily-capsules-that-support-skin-health-and-fight-acne-from-the-inside-out"><span class="dermatologist-designeddailycapsulesthatsupportskinhealthandfightacnefromtheinsideout_span">Dermatologist-designed daily capsules that support skin health and fight acne from the inside, out</span></div>
+        <div class="add-to-cart_01"><span class="addtocart_01_span">Add to cart</span></div>
+        <div class="text-42"><span class="f2_span">$42</span></div>
+        <div class="ahabha-pimple-patches"><span class="ahabhapimplepatches_span">AHA/BHA Pimple Patches</span></div>
+        <div class="microdart-pimple-patches-designed-to-penetrate-pimples-and-kill-bacteria-deep-within-the-skin"><span class="microdartpimplepatchesdesignedtopenetratepimplesandkillbacteriadeepwithintheskin_span">Microdart pimple patches designed to penetrate pimples and kill bacteria deep within the skin.</span></div>
+        <div class="add-to-cart_02"><span class="addtocart_02_span">Add to cart</span></div>
+        <div class="text-39"><span class="f9_span">$39</span></div>
+        <div class="ceramide-repair-balm"><span class="ceramiderepairbalm_span">Ceramide Repair Balm</span></div>
+        <div class="a-rich-moisturiser-to-nourish-dryness-and-repair-the-skin-barrier"><span class="arichmoisturisertonourishdrynessandrepairtheskinbarrier_span">A rich moisturiser to nourish dryness and repair the skin barrier</span></div>
+        <div class="add-to-cart_03"><span class="addtocart_03_span">Add to cart</span></div>
+        <div class="text-39_01"><span class="f9_01_span">$39</span></div>
+        <div class="salicylic-acid-foaming-wash"><span class="salicylicacidfoamingwash_span">Salicylic Acid Foaming Wash</span></div>
+        <div class="a-gentle-exfoliating-wash-targeting-acne-causing-bacteria-and-skin-impurities"><span class="agentleexfoliatingwashtargetingacne-causingbacteriaandskinimpurities_span">A gentle exfoliating wash targeting acne-causing bacteria and skin impurities</span></div>
+        <div class="add-to-cart_04"><span class="addtocart_04_span">Add to cart</span></div>
+        <div class="text-32"><span class="f2_span_01">$32</span></div>
+        <div class="software-essentials"><span class="softwareessentials_span">Software Essentials</span></div>
+        <div class="a-comprehensive-routine-designed-to-enhance-your-custom-software-formula"><span class="acomprehensiveroutinedesignedtoenhanceyourcustomsoftwareformula_span">A comprehensive routine designed to enhance your custom Software formula.</span></div>
+        <div class="add-to-cart_05"><span class="addtocart_05_span">Add to cart</span></div>
+        <div class="text-90"><span class="f0_span">$90</span></div>
+        <div class="real-people-real-results"><span class="realpeoplerealresults_span">Real people. Real results.</span></div>
+        <div class="see-glowing-reviews-from-members-of-our-thriving-community"><span class="seeglowingreviewsfrommembersofourthrivingcommunity_span">See glowing reviews from members of our thriving community.</span></div>
+        <div class="all"><span class="all_span">All</span></div>
+        <div class="acne_02"><span class="acne_02_span">Acne</span></div>
+        <div class="texture"><span class="texture_span">Texture</span></div>
+        <div class="pigmentation_02"><span class="pigmentation_02_span">Pigmentation</span></div>
+        <div class="anti-ageing"><span class="anti-ageing_span">Anti-ageing</span></div>
+        <div class="laura-32"><span class="laura32_span">Laura, 32</span></div>
+        <div class="western-australia"><span class="westernaustralia_span">Western Australia</span></div>
+        <div class="pigmentation_03"><span class="pigmentation_03_span">Pigmentation</span></div>
+        <div class="eliza-33"><span class="eliza33_span">Eliza, 33</span></div>
+        <div class="new-south-wales"><span class="newsouthwales_span">New South Wales</span></div>
+        <div class="pigmentation_04"><span class="pigmentation_04_span">Pigmentation</span></div>
+        <div class="kristy-43"><span class="kristy43_span">Kristy, 43</span></div>
+        <div class="nsw"><span class="nsw_span">NSW</span></div>
+        <div class="anti-ageing_01"><span class="anti-ageing_span_01">Anti-Ageing</span></div>
+        <div class="andrea-27"><span class="andrea27_span">Andrea, 27</span></div>
+        <div class="sydney"><span class="sydney_span">Sydney</span></div>
+        <div class="acne_03"><span class="acne_03_span">Acne</span></div>
+        <div class="danielle"><span class="danielle_span">Danielle</span></div>
+        <div class="acne_04"><span class="acne_04_span">Acne</span></div>
+        <div class="tani-27"><span class="tani27_span">Tani, 27</span></div>
+        <div class="brisbane"><span class="brisbane_span">Brisbane</span></div>
+        <div class="pigmentation_05"><span class="pigmentation_05_span">Pigmentation</span></div>
+        <div class="show-more"><span class="showmore_span">Show more</span></div>
+        <div class="ingredients-you-cant-get-off-the-shelf"><span class="ingredientsyoucantgetofftheshelf_span">Ingredients you can’t get off the shelf</span></div>
+        <div class="your-custom-formula-combines-scientifically-backed-ingredientsat-just-the-right-strength-for-your-skin"><span class="yourcustomformulacombinesscientifically-backedingredientsatjusttherightstrengthforyourskin_span">Your custom formula combines scientifically-backed ingredients—at just the right strength for your skin.</span></div>
+        <div class="retinoid"><span class="retinoid_span">Retinoid</span></div>
+        <div class="the-silver-bullet-of-skin-care-actives-retinoids-increase-skin-cell-turnover-and-boost-collagen-production-it-also-reduces-acne-and-inflammation-leaving-your-skin-clear-firm-and-glowing"><span class="thesilverbulletofskincareactivesretinoidsincreaseskincellturnoverandboostcollagenproductionitalsoreducesacneandinflammationleavingyourskinclearfirmandglowing_span">The “silver bullet” of skin care actives, retinoids increase skin cell turnover and boost collagen production. It also reduces acne and inflammation, leaving your skin clear, firm, and glowing.</span></div>
+        <div class="azelaic-acid"><span class="azelaicacid_span">Azelaic Acid</span></div>
+        <div class="the-ultimate-acne-fighter-azelaic-acid-eliminates-bacteria-and-reduces-inflammation-which-minimises-acne-and-keeps-future-breakouts-at-bay"><span class="theultimateacnefighterazelaicacideliminatesbacteriaandreducesinflammationwhichminimisesacneandkeepsfuturebreakoutsatbay_span">The ultimate acne fighter, azelaic acid eliminates bacteria and reduces inflammation, which minimises acne and keeps future breakouts at bay.</span></div>
+        <div class="niacinamide"><span class="niacinamide_span">Niacinamide</span></div>
+        <div class="the-perfect-compliment-to-clinical-grade-actives-it-strengthens-the-skin-barrier-and-helps-rebuild-new-skin-cells"><span class="theperfectcomplimenttoclinical-gradeactivesitstrengthenstheskinbarrierandhelpsrebuildnewskincells_span">The perfect compliment to clinical-grade actives, it strengthens the skin barrier and helps rebuild new skin cells.</span></div>
+        <div class="hyaluronic-acid"><span class="hyaluronicacid_span">Hyaluronic Acid</span></div>
+        <div class="this-gentle-hydrator-attracts-and-retains-moisture-calming-the-skin-after-the-use-of-potent-actives"><span class="thisgentlehydratorattractsandretainsmoisturecalmingtheskinaftertheuseofpotentactives_span">This gentle hydrator attracts and retains moisture, calming the skin after the use of potent actives.</span></div>
+        <div class="antibiotics"><span class="antibiotics_span">Antibiotics</span></div>
+        <div class="these-cut-straight-to-the-source-controlling-and-subduing-acne-causing-bacteria-antibiotics-also-help-heal-inflamed-acne"><span class="thesecutstraighttothesourcecontrollingandsubduingacne-causingbacteriaantibioticsalsohelphealinflamedacne_span">These cut straight to the source, controlling and subduing acne-causing bacteria. Antibiotics also help heal inflamed acne.</span></div>
+        <div class="read-our-ingredients-bible"><span class="readouringredientsbible_span">Read our ingredients bible</span></div>
+        <div class="patients-love-us"><span class="patientsloveus_span">Patients love us</span></div>
+        <div class="sooo-satisfying-to-use"><span class="sooosatisfyingtouse_span">Sooo satisfying to use</span></div>
+        <div class="by"><span class="by_span">by</span></div>
+        <div class="caitlyn-obrien"><span class="caitlynobrien_span">Caitlyn O'Brien</span></div>
+        <div class="on"><span class="on_span">on</span></div>
+        <div class="text-1182022"><span class="f182022_span">11/8/2022</span></div>
+        <div class="i-tried-softwares-pimple-patches-and-it-was-sooo-satisfying-to-use-it-zapped-my-pimples-and-surprisingly-stuck-on-the-whole-night-through-i-used-it-on-a-pimple-on-my-upper-lip-and-it-stayed-on-even-when-i-was-brushing-my-teeth-most-pimple-patches-ive-tried-in-the-past-fall-off-pretty-easily"><span class="itriedsoftwarespimplepatchesanditwassooosatisfyingtouseitzappedmypimplesandsurprisinglystuckonthewholenightthroughiuseditonapimpleonmyupperlipanditstayedonevenwheniwasbrushingmyteethmostpimplepatchesivetriedinthepastfalloffprettyeasily_span">I tried Software’s Pimple Patches and it was sooo satisfying to use — it zapped my pimples and surprisingly stuck on the whole night through. I used it on a pimple on my upper lip, and it stayed on even when I was brushing my teeth (most pimple patches I’ve tried in the past fall off pretty easily).</span></div>
+        <div class="thank-you-for-helping-a-worrying-mum"><span class="thankyouforhelpingaworryingmum_span">Thank you for helping a worrying mum</span></div>
+        <div class="by_01"><span class="by_01_span">by</span></div>
+        <div class="diane"><span class="diane_span">Diane</span></div>
+        <div class="on_01"><span class="on_01_span">on</span></div>
+        <div class="text-1482021"><span class="f482021_span">14/8/2021</span></div>
+        <div class="quite-simply-the-prompt-replies-and-action-to-give-us-a-plan-to-feel-like-someone-heard-us-and-are-willing-to-help-us-has-been-so-amazing-and-comforting-the-communication-is-fast-and-we-received-our-creams-and-plan-within-a-week-cant-wait-to-see-the-results-i-cant-say-how-much-the-support-helped-a-worried-mum-thank-you"><span class="quitesimplythepromptrepliesandactiontogiveusaplantofeellikesomeoneheardusandarewillingtohelpushasbeensoamazingandcomfortingthecommunicationisfastandwereceivedourcreamsandplanwithinaweekcantwaittoseetheresultsicantsayhowmuchthesupporthelpedaworriedmumthankyou_span">Quite simply the prompt replies and action to give us a plan to feel like someone heard us and are willing to help us has been so amazing and comforting. The communication is fast and we received our creams and plan within a week. Cant wait to see the results. I cant say how much the support helped a worried mum. Thank you</span></div>
+        <div class="best-and-most-function-skincare-ive-ever-seenused"><span class="bestandmostfunctionskincareiveeverseenused_span">Best and most function Skincare I’ve ever seen/used</span></div>
+        <div class="by_02"><span class="by_02_span">by</span></div>
+        <div class="kayleigh-mc"><span class="kayleighmc_span">Kayleigh Mc</span></div>
+        <div class="on_02"><span class="on_02_span">on</span></div>
+        <div class="text-1382021"><span class="f382021_span">13/8/2021</span></div>
+        <div class="the-products-really-are-made-custom-to-each-individual-my-aggressive-skin-was-transformed-within-months-the-quality-and-convenience-is-exceptional-the-website-is-so-easy-to-navigate-and-alter-your-subscription-refill-when-needed-the-doctors-respond-within-minutes-a-couple-hours-i-have-no-words-other-than-how-amazing-this-companys-products-and-team-are"><span class="theproductsreallyaremadecustomtoeachindividualmyaggressiveskinwastransformedwithinmonthsthequalityandconvenienceisexceptionalthewebsiteissoeasytonavigateandalteryoursubscriptionrefillwhenneededthedoctorsrespondwithinminutes-acouplehoursihavenowordsotherthanhowamazingthiscompanysproductsandteamare_span">The products really are made custom to each individual. My aggressive skin was transformed within months. The quality and convenience is exceptional, the website is so easy to navigate and alter your subscription refill when needed. The doctors respond within minutes-a couple hours. I have no words other than how amazing this company’s products and team are.</span></div>
+        <div class="life-changing-for-my-confidence"><span class="lifechangingformyconfidence_span">Life changing for my confidence!</span></div>
+        <div class="by_03"><span class="by_03_span">by</span></div>
+        <div class="michelle-s"><span class="michelles_span">Michelle S</span></div>
+        <div class="on_03"><span class="on_03_span">on</span></div>
+        <div class="text-1572021"><span class="f572021_span">15/7/2021</span></div>
+        <div class="i-am-a-product-junkie-always-after-the-latest-and-greatest-i-have-never-had-results-with-anything-in-the-last-30-years-of-treating-my-acnescars-andost-recently-wrinkles-i-decided-to-use-my-time-in-lockdown-to-create-the-transformation-as-i-had-read-about-the-ugly-phase-in-the-first-couple-of-weeks-i-cannot-wait-until-the-lockdown-lifts-so-that-i-can-show-my-new-smooth-clear-face-and-uplifted-confidence-to-the-world-the-customer-service-is-top-notch-and-they-reply-to-my-emails-very-quickly-i-am-happy-and-very-satisfied-with-the-price-and-products"><span class="iamaproductjunkiealwaysafterthelatestandgreatestihaveneverhadresultswithanythinginthelast30yearsoftreatingmyacnescarsandostrecentlywrinklesidecidedtousemytimeinlockdowntocreatethetransformationasihadreadabouttheuglyphaseinthefirstcoupleofweeksicannotwaituntilthelockdownliftssothaticanshowmynewsmoothclearfaceandupliftedconfidencetotheworldthecustomerserviceistopnotchandtheyreplytomyemailsveryquicklyiamhappyandverysatisfiedwiththepriceandproducts_span">I am a ‘product junkie’ always after the latest and greatest. I have never had results with anything in the last 30 years of treating my acne/scars andost recently, wrinkles. I decided to use my time in lockdown to create the transformation as I had read about the ugly phase in the first couple of weeks. I cannot wait until the lockdown lifts so that I can show my new smooth clear face and uplifted confidence to the world! The customer service is top notch and they reply to my emails very quickly. I am happy and very satisfied with the price and products!</span></div>
+        <div class="this-brand-changed-my-life"><span class="thisbrandchangedmylife_span">This brand changed my life</span></div>
+        <div class="by_04"><span class="by_04_span">by</span></div>
+        <div class="lil"><span class="lil_span">Lil</span></div>
+        <div class="on_04"><span class="on_04_span">on</span></div>
+        <div class="text-272021"><span class="f72021_span">2/7/2021</span></div>
+        <div class="i-have-been-using-software-skin-since-november-2020-and-have-found-a-significance-improvement-in-the-oiliness-of-my-skin-and-my-acne-i-suffer-with-pcos-which-causes-hormonal-acne-in-my-mid-20s-and-nothing-seemed-to-help-when-i-saw-software-skin-i-thought-it-would-be-worth-it-to-give-it-a-shot-by-february-2021-i-felt-like-a-complete-new-person-hyper-pigmentation-i-had-for-years-starting-to-vanish-and-my-congested-acne-on-my-jawline-was-basically-none-existent-software-skin-is-150-worth-the-try"><span class="ihavebeenusingsoftwareskinsincenovember2020andhavefoundasignificanceimprovementintheoilinessofmyskinandmyacneisufferwithpcoswhichcauseshormonalacneinmymid20sandnothingseemedtohelpwhenisawsoftwareskinithoughtitwouldbeworthittogiveitashotbyfebruary2021ifeltlikeacompletenewpersonhyperpigmentationihadforyearsstartingtovanishandmycongestedacneonmyjawlinewasbasicallynoneexistentsoftwareskinis150worththetry_span">I have been using software skin since November 2020 and have found a significance improvement in the oiliness of my skin and my acne. I suffer with pcos which causes hormonal acne in my mid 20s and nothing seemed to help. When I saw Software skin I thought it would be worth it to give it a shot. By February 2021 I felt like a complete new person. Hyper pigmentation I had for years starting to vanish and my congested acne on my jawline was basically none existent. Software skin is 150% worth the try!</span></div>
+        <div class="such-quick-results-skin-looks-and-feels-great"><span class="suchquickresultsskinlooksandfeelsgreat_span">Such quick results. Skin looks and feels great</span></div>
+        <div class="by_05"><span class="by_05_span">by</span></div>
+        <div class="amy-t"><span class="amyt_span">Amy T</span></div>
+        <div class="on_05"><span class="on_05_span">on</span></div>
+        <div class="text-2262021"><span class="f262021_span">22/6/2021</span></div>
+        <div class="very-quick-in-matching-me-a-doctor-and-sending-out-the-correct-formula-for-my-skin-within-literally-2-applications-i-could-notice-the-difference-now-after-3-weeks-my-skin-is-very-even-i-had-enlarged-pores-and-bumpy-skin-and-has-a-real-glow-havent-been-wearing-foundation-for-the-last-week-such-great-results-will-be-using-this-always"><span class="veryquickinmatchingmeadoctorandsendingoutthecorrectformulaformyskinwithinliterally2applicationsicouldnoticethedifferencenowafter3weeksmyskinisveryevenihadenlargedporesandbumpyskinandhasarealglowhaventbeenwearingfoundationforthelastweeksuchgreatresultswillbeusingthisalways_span">Very quick in matching me a doctor and sending out the correct formula for my skin. Within literally 2 applications I could notice the difference. Now after 3 weeks my skin is very even (I had enlarged pores and bumpy skin) and has a real glow. Haven’t been wearing foundation for the last week. Such great results, will be using this always!</span></div>
+        <div class="skeptics-rejoice"><span class="skepticsrejoice_span">Skeptics rejoice</span></div>
+        <div class="by_06"><span class="by_06_span">by</span></div>
+        <div class="claireelise"><span class="claireelise_span">ClaireElise</span></div>
+        <div class="on_06"><span class="on_06_span">on</span></div>
+        <div class="text-922021"><span class="f22021_span">9/2/2021</span></div>
+        <div class="i-was-such-a-skeptic-i-have-the-most-reactive-and-sensitive-skin-and-i-was-convinced-that-this-was-going-to-be-yet-another-product-i-spend-heaps-of-money-on-and-chuck-out-after-3-uses-i-absolutely-flared-up-initially-but-within-2-more-uses-my-skin-was-nicer-than-it-has-ever-been-smoother-complexion-no-little-bumps-or-sores-like-usual-amazing"><span class="iwassuchaskepticihavethemostreactiveandsensitiveskinandiwasconvincedthatthiswasgoingtobeyetanotherproductispendheapsofmoneyonandchuckoutafter3usesiabsolutelyflaredupinitiallybutwithin2moreusesmyskinwasnicerthanithaseverbeensmoothercomplexionnolittlebumpsorsoreslikeusualamazing_span">I was such a skeptic. I have the most reactive and sensitive skin and I was convinced that this was going to be yet another product I spend heaps of money on and chuck out after 3 uses. I absolutely flared up initially... but within 2 more uses my skin was nicer than it has ever been. Smoother complexion, no little bumps or sores like usual. Amazing!</span></div>
+        <div class="excellent-skincare"><span class="excellentskincare_span">Excellent skincare</span></div>
+        <div class="by_07"><span class="by_07_span">by</span></div>
+        <div class="gabi-m"><span class="gabim_span">Gabi M</span></div>
+        <div class="on_07"><span class="on_07_span">on</span></div>
+        <div class="text-722021"><span class="f22021_span_01">7/2/2021</span></div>
+        <div class="the-process-of-obtaining-the-cream-was-on-time-and-no-hassles-they-keep-you-updated-with-support-the-actual-cream-was-wonderful-i-saw-results-after-a-few-days-there-was-a-little-stinging-in-the-beginning-but-that-meant-it-was-working-the-stinging-stopped-after-3-days-and-the-effects-are-great-no-breakouts-skin-not-oily-as-it-was-before-people-after-just-a-few-days-mentioned-how-good-my-skin-looks-i-do-not-wear-any-foundation-or-powder-now-just-bare-skin-with-some-blusher-some-eye-makeup-and-some-lipstick-the-skin-tone-is-even-so-no-need-to-cover-it-up-and-it-doesnt-look-like-an-oil-slick-at-the-end-of-the-day-as-before-great-work-skin-software-i-was-recommended-by-a-friend-who-loves-it-too-i-will-only-use-your-skincare-from-now-on-gabi"><span class="theprocessofobtainingthecreamwasontimeandnohasslestheykeepyouupdatedwithsupporttheactualcreamwaswonderfulisawresultsafterafewdaystherewasalittlestinginginthebeginningbutthatmeantitwasworkingthestingingstoppedafter3daysandtheeffectsaregreatnobreakoutsskinnotoilyasitwasbeforepeopleafterjustafewdaysmentionedhowgoodmyskinlooksidonotwearanyfoundationorpowdernowjustbareskinwithsomeblushersomeeyemakeupandsomelipsticktheskintoneisevensononeedtocoveritupanditdoesntlooklikeanoilslickattheendofthedayasbeforegreatworkskinsoftwareiwasrecommendedbyafriendwholovesittooiwillonlyuseyourskincarefromnowongabi_span">The process of obtaining the cream was on time and no hassles. They keep you updated with support. The actual cream was wonderful I saw results after a few days. There was a little stinging in the beginning but that meant it was working. The stinging stopped after 3 days and the effects are great. No breakouts, skin not oily as it was before. People after just a few days mentioned how good my skin looks. I do not wear any foundation or powder now, just bare skin with some blusher, some eye makeup and some lipstick. The skin tone is even so no need to cover it up. And it doesn’t look like an oil slick at the end of the day as before. Great work skin software. I was recommended by a friend who loves it too. I will only use your skincare from now on. Gabi</span></div>
+        <div class="thrilled-with-results"><span class="thrilledwithresults_span">Thrilled with results</span></div>
+        <div class="by_08"><span class="by_08_span">by</span></div>
+        <div class="hannah"><span class="hannah_span">Hannah</span></div>
+        <div class="on_08"><span class="on_08_span">on</span></div>
+        <div class="text-29122020"><span class="f9122020_span">29/12/2020</span></div>
+        <div class="after-a-few-years-of-suffering-from-hormonal-adult-acne-and-trying-just-about-every-product-available-this-cream-has-saved-my-skin-i-havent-noticed-any-strange-smell-and-the-texture-is-great-my-skin-is-already-clearing-after-two-weeks-with-no-purge-just-some-light-dryness"><span class="afterafewyearsofsufferingfromhormonaladultacneandtryingjustabouteveryproductavailablethiscreamhassavedmyskinihaventnoticedanystrangesmellandthetextureisgreatmyskinisalreadyclearingaftertwoweekswithnopurgejustsomelightdryness_span">After a few years of suffering from hormonal adult acne and trying just about every product available this cream has saved my skin. I haven't noticed any strange smell and the texture is great. My skin is already clearing after two weeks with no purge, just some light dryness</span></div>
+        <div class="faqs"><span class="faqs_span">FAQs</span></div>
+        <div class="what-is-included-in-the-consultation"><span class="whatisincludedintheconsultation_span">What is included in the consultation?</span></div>
+        <div class="how-much-does-it-cost"><span class="howmuchdoesitcost_span">How much does it cost?</span></div>
+        <div class="what-makes-software-personalised"><span class="whatmakessoftwarepersonalised_span">What makes Software “personalised”?</span></div>
+        <div class="can-i-use-other-skincare-products-with-my-software-treatment"><span class="caniuseotherskincareproductswithmysoftwaretreatment_span">Can I use other skincare products with my Software treatment?</span></div>
+        <div class="meet-our-skin-experts"><span class="meetourskinexperts_span">Meet our skin experts</span></div>
+        <div class="get-assigned-your-own-gp"><span class="getassignedyourowngp_span">Get assigned your own GP.</span></div>
+        <div class="our-team-of-doctors-analyse-your-skin-and-prescribe-a-treatment-just-for-you"><span class="ourteamofdoctorsanalyseyourskinandprescribeatreatmentjustforyou_span">Our team of doctors analyse your skin and prescribe a treatment just for you</span></div>
+        <div class="track-your-skin-progress-with-regular-check-ins"><span class="trackyourskinprogresswithregularcheck-ins_span">Track your skin progress with regular check-ins.</span></div>
+        <div class="dr-hope-dinh"><span class="drhopedinh_span">Dr. Hope Dinh</span></div>
+        <div class="consultant-dermatologist-mbbs-facd"><span class="consultantdermatologistmbbsfacd_span">Consultant Dermatologist, MBBS, FACD</span></div>
+        <div class="dr-matt-vickers"><span class="drmattvickers_span">Dr. Matt Vickers</span></div>
+        <div class="general-practitioner"><span class="generalpractitioner_span">General Practitioner</span></div>
+        <div class="niamh-mooney"><span class="niamhmooney_span">Niamh Mooney</span></div>
+        <div class="software-founder"><span class="softwarefounder_span">Software Founder</span></div>
+        <div class="dr-ryan-de-cruz"><span class="drryandecruz_span">Dr. Ryan De Cruz</span></div>
+        <div class="consultant-dermatologist-mbbs-facd_01"><span class="consultantdermatologistmbbsfacd_01_span">Consultant Dermatologist, MBBS, FACD</span></div>
+        <div class="how-software-works"><span class="howsoftwareworks_span">How Software works</span></div>
+        <div class="step-1"><span class="step1_span">Step 1</span></div>
+        <div class="start-your-doctor-consult"><span class="startyourdoctorconsult_span">Start your doctor consult</span></div>
+        <div class="take-the-skin-quiz-to-share-your-skin-history-concerns-and-goals-before-speaking-to-your-doctor"><span class="taketheskinquiztoshareyourskinhistoryconcernsandgoalsbeforespeakingtoyourdoctor_span">Take the skin quiz to share your skin history, concerns and goals before speaking to your doctor.</span></div>
+        <div class="step-2"><span class="step2_span">Step 2</span></div>
+        <div class="use-your-personalised-formula"><span class="useyourpersonalisedformula_span">Use your personalised formula</span></div>
+        <div class="your-treatment-will-be-delivered-every-two-months"><span class="yourtreatmentwillbedeliveredeverytwomonths_span">Your treatment will be delivered every two months.</span></div>
+        <div class="step-3"><span class="step3_span">Step 3</span></div>
+        <div class="get-ongoing-support"><span class="getongoingsupport_span">Get ongoing support</span></div>
+        <div class="our-medical-team-can-reformulate-your-treatment-as-you-progress-and-answer-your-questions-whenever"><span class="ourmedicalteamcanreformulateyourtreatmentasyouprogressandansweryourquestionswhenever_span">Our medical team can reformulate your treatment as you progress and answer your questions, whenever.</span></div>
+        <div class="lets-get-started"><span class="letsgetstarted_span">Let’s get started</span></div>
+        <div class="take-the-quiz"><span class="takethequiz_span">Take the quiz</span></div>
+        <div class="ageing_02"><span class="ageing_02_span">Ageing</span></div>
+        <div class="acne_05"><span class="acne_05_span">Acne</span></div>
+        <div class="pigmentation_06"><span class="pigmentation_06_span">Pigmentation</span></div>
+        <div class="hair-loss_01"><span class="hairloss_span_01">Hair Loss</span></div>
+        <div class="software-essentials_01"><span class="softwareessentials_01_span">Software Essentials</span></div>
+        <div class="advanced-ageing-set"><span class="advancedageingset_span">Advanced Ageing Set</span></div>
+        <div class="acne-kit"><span class="acnekit_span">Acne Kit</span></div>
+        <div class="ingredients"><span class="ingredients_span">Ingredients</span></div>
+        <div class="skin-journal"><span class="skinjournal_span">Skin Journal</span></div>
+        <div class="support-centre"><span class="supportcentre_span">Support Centre</span></div>
+        <div class="contact-us"><span class="contactus_span">Contact Us</span></div>
+        <div class="log-in_01"><span class="login_01_span">Log in</span></div>
+        <div class="privacy-policy"><span class="privacypolicy_span">Privacy Policy</span></div>
+        <div class="text-"><span class="fspan">|</span></div>
+        <div class="terms-conditions"><span class="termsconditions_span">Terms & Conditions</span></div>
+        <div class="text-_01"><span class="f01_span">|</span></div>
+        <div class="fulfilment-shipping-returns-policy"><span class="fulfilmentshippingreturnspolicy_span">Fulfilment, Shipping & Returns Policy</span></div>
+      </div>   
+         
+</body>
+</html>
